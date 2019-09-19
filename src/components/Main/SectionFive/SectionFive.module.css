@@ -1,0 +1,22 @@
+.sectionOne{
+    width: 100%;
+    font-family: PT Sans, Areal, sans-serif;
+    background-image: url('../../../Files/Images/photo-1536859355448-76f92ebdc33d.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sectionOneDiv{
+    background-color: red;
+    padding: 20px;
+}
+.sectionFive{
+    background-image: none;
+    background-color: mediumpurple;
+}

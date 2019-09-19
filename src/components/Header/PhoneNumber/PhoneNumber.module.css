@@ -1,0 +1,25 @@
+.numberCode{
+    color: #ba986d;
+}
+.numberPhone{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.imagePhpne{
+    content: url("../../../Files/Images/phone-head.png");
+}
+.blockNumber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderCall{
+    color: #ba986d;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+.orderCall:hover{
+    /*background-color: grey;*/
+    border-bottom: 1px solid grey;
+}

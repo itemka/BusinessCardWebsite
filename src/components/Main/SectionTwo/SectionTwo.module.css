@@ -1,0 +1,13 @@
+.sectionTwo{
+    width: 100%;
+    font-family: PT Sans, Areal, sans-serif;
+    background-color: rgb(28,28,28);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
