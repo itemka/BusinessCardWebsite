@@ -7,7 +7,7 @@ const SectionOne = () => {
         <section id={'web'} className={`${css.sectionOne}`}>
             <div className={css.infoAboutMyself}>
                 As so seeing latter he should thirty whence. How one dull get busy dare far. To sure calm much most
-                long me mean. Now summer who day looked our behind moment coming. If as increasing contrasted entreaties
+                long me mean. Now summer who day looked our behind moment coming.
             </div>
             <div className={css.blokFoto}>
                 <img className={css.myFoto} src={iPhoto} alt="" Pavlenko Artsem/>
