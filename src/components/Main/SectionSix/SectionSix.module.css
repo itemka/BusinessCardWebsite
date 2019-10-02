@@ -1,4 +1,4 @@
-.sectionOne{
+.sectionOne {
     width: 100%;
     font-family: PT Sans, Areal, sans-serif;
     background-image: url('../../../Files/Images/photo-1536859355448-76f92ebdc33d.jpeg');
@@ -12,11 +12,68 @@
     justify-content: center;
     align-items: center;
 }
-.sectionOneDiv{
-    background-color: red;
-    padding: 20px;
-}
-.sectionSix{
+
+.sectionSix {
     background-image: none;
     background-color: tan;
+}
+
+.borderSectionSix {
+    margin: 70px 20px 20px 20px;
+    background-color: lightgreen;
+    height: 650px;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsTitleBorder {
+    height: 20%;
+    width: 100%;
+    background-color: cadetblue;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsTitle {
+    align-items: center;
+    padding: 20px 30px;
+    background-color: mediumslateblue;
+}
+
+.contactsListBorder {
+    width: 50%;
+    height: 80%;
+    background-color: saddlebrown;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactsList {
+    align-items: center;
+    padding: 20px 30px;
+    background-color: mediumslateblue;
+}
+
+.sendMessageToEmailBorder {
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }

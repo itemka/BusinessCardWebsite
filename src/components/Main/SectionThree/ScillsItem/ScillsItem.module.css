@@ -1,0 +1,35 @@
+.ScillsItem {
+    width: 25%;
+    height: 80%;
+    background-color: slategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ScillsItemTop{
+    background-color: tan;
+    width: 100%;
+    height: 65%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textOnShadows{
+    align-items: center;
+}
+.textBelowShadows{
+    align-items: center;
+}
+.ScillsItemBottom{
+    background-color: rgba(121,200,120,0.49);
+    width: 100%;
+    height: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
