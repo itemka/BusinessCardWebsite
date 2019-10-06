@@ -1,5 +1,5 @@
 .numberCode{
-    color: #ba986d;
+    color: #f3c26b;
 }
 .numberPhone{
     font-size: 20px;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 .orderCall{
-    color: #ba986d;
+    color: #f3c26b;
     border-bottom: 1px solid;
     cursor: pointer;
 }

@@ -37,12 +37,8 @@
     align-items: center;
 }
 
-.SkillsTitle {
-    align-items: center;
-}
-
 .mainSkills {
-    background-color: #ffff99;
+    background-color: #343436;
     width: 100%;
     height: 80%;
     display: flex;

@@ -1,0 +1,23 @@
+.borderTitle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.generalTitle {
+    color: #ffffff;
+    /*color: #f3c26b;*/
+    font-size: 35px;
+    font-family: Download1, Areal, sans-serif;
+    position: relative;
+}
+
+.afterTitle {
+    width: 50px;
+    height: 2px;
+    margin-bottom: 10px;
+    background-color: #f3c26b;
+}

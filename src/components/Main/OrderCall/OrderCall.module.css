@@ -1,7 +1,7 @@
 .sectionOne {
     width: 100%;
     font-family: PT Sans, Areal, sans-serif;
-    background-image: url('../../../Files/Images/photo-1536859355448-76f92ebdc33d.jpeg');
+    /*background-image: url('../../../Files/Images/123.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -12,63 +12,70 @@
     justify-content: center;
     align-items: center;
 }
+
 .sectionFive {
-    background-image: none;
-    background-color: white;
+    /*background-image: inherit;*/
+    background-color: #343436;
 }
 
-@media screen and (min-width: 800px) {
-    .borderAround {
-        margin-right: 150px;
-    }
-    .borderAround{
-        padding: 30px;
-    }
-    .sectionOne{
-        justify-content: flex-end;
-    }
+.title {
+    background-color: #2F2F31;
+    padding: 10px 100px;
 }
 
 .borderAround {
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    background-color: #575757;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45), 0 15px 15px rgba(0, 0, 0, 0.45);
+    /*position: relative;*/
 }
 
 .sectionOneDiv {
-    border: 1px solid #222222;
-    background-color: white;
+    background-color: #575757;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
 }
+
+/*.sectionOneDiv:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    width: 340px;*/
+/*    height: 360px;*/
+/*    left: 10px;*/
+/*    top: -20px;*/
+/*    border: 6px solid #f3c26b;*/
+/*    z-index: 5;*/
+/*}*/
+
 
 .myText {
     align-self: self-start;
     margin-bottom: 20px;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #222222;
+    color: #ffffff;
 }
 
 .buttonCall {
     width: 280px;
     color: #222222 !important;
-    border: 0.5px solid #ba986d !important;
+    /*border: 0.5px solid #ba986d !important;*/
     border-radius: 3px !important;
     margin-bottom: 20px;
     padding: 10px !important;
 }
 
 .buttonCall:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
 }
 
 .message {
     width: 280px;
+    font-family: 'Noto Sans', sans-serif;
     color: #222222 !important;
-    border: 0.5px solid #ba986d !important;
     border-radius: 3px !important;
     margin-bottom: 20px;
     padding: 10px !important;
@@ -76,18 +83,18 @@
 }
 
 .message:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
 }
 
 .sendCall {
-    background-color: #ba986d !important;
+    background-color: #50707a !important;
     color: honeydew !important;
     border-radius: 0 !important;
     width: 220px !important;
 }
 
 .sendCall:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
 }
 
 .changeButton {
@@ -101,11 +108,13 @@
 .changeButton .After {
     position: absolute;
     display: block;
-    background-color: #35495e !important;
-    border: 1px solid #35495e;
+    background-color: #f3c26b !important;
     transition: all .2s;
+    font-family: Download1, Areal, sans-serif;
+    font-size: 1.5em;
     text-decoration: none;
-    line-height: 30px;
+    line-height: 25px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
 }
 
 .changeButton .beFor {
@@ -113,7 +122,6 @@
 }
 
 .changeButton .After {
-    border: 1px solid #42b883;
     transform: rotateX(-90deg) translateZ(15px);
 }
 
@@ -121,24 +129,50 @@
     transform: rotateX(90deg);
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 800px) {
     .borderAround {
-        margin-right: 200px;
-    }
-    .borderAround{
+        /*margin-right: 150px;*/
         padding: 30px;
     }
-    .sectionOne{
-        justify-content: flex-end;
+
+    .sectionOne {
+        justify-content: space-evenly;
     }
-    .myText{
+
+    .sectionOneDiv:before {
+        width: 360px;
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .borderAround {
+        /*margin-right: 200px;*/
+    }
+
+    .borderAround {
+        padding: 30px;
+    }
+
+    .sectionOne {
+        justify-content: space-evenly;
+    }
+
+    .sectionOneDiv:before {
+        width: 460px;
+        height: 400px;
+    }
+
+    .myText {
         font-size: 1.3em;
         margin-bottom: 30px;
     }
-    .buttonCall{
+
+    .buttonCall {
         width: 380px;
     }
-    .message{
+
+    .message {
         width: 380px;
         font-size: 1.5em;
     }

@@ -1,6 +1,7 @@
 import React from 'react';
 import css from './Skills.module.css';
 import SkillsItem from "./SkillsItem/SkillsItem";
+import GeneralTitle from "../../GeneralTitle/GeneralTitle";
 
 const Skills = () => {
     return (
@@ -9,7 +10,7 @@ const Skills = () => {
             <div className={css.borderSectionThree}>
 
                 <div className={css.headerSkills}>
-                    <div className={css.SkillsTitle}><h1>SkillsTitle</h1></div>
+                    <GeneralTitle text={`Навыки`}/>
                 </div>
                 <div className={css.mainSkills}>
                     <SkillsItem/>

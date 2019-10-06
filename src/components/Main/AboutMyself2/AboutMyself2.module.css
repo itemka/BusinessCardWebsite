@@ -1,6 +1,8 @@
 .sectionTwo{
     width: 100%;
     font-family: PT Sans, Areal, sans-serif;
+    background-image: url('../../../Files/Images/123.jpg');
+    background-repeat: no-repeat;
     background-color: rgb(28,28,28);
     background-size: cover;
     height: 100vh;
