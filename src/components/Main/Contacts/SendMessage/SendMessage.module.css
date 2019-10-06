@@ -1,0 +1,64 @@
+.sendMessageToEmail {
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background-color: #35495e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: "PT Rubik", sans-serif;
+    margin: 5px;
+}
+
+.buttonName {
+    width: 100%;
+    background-color: #222222;
+    margin: 0 0 10px 0;
+}
+
+.buttonEmail {
+    width: 100%;
+    background-color: #222222;
+    margin: 0 0 10px 0;
+}
+
+.buttonSubject {
+    width: 100%;
+    background-color: #222222;
+    margin: 0 0 10px 0;
+}
+
+.buttonMessage {
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    color: white !important;
+    border: 2px solid #ba986d !important;
+    border-radius: 20px !important;
+    padding: 10px !important;
+    font-size: 1.3em;
+    margin: 0 0 20px 0;
+}
+
+.sendMessage {
+    width: 120px;
+    background-color: #ba986d;
+}
+
+@media screen and (min-width: 1000px) {
+    .buttonName {
+        width: 35%;
+        margin: 0;
+    }
+
+    .buttonEmail {
+        width: 35%;
+        margin: 0;
+    }
+
+    .buttonMessage {
+
+    }
+}

@@ -4,7 +4,6 @@
     background-image: url('../../../Files/Images/photo-1536859355448-76f92ebdc33d.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     color: white;
     display: flex;
     flex-direction: row;
@@ -19,10 +18,9 @@
 }
 
 .borderSectionSix {
-    margin: 70px 20px 20px 20px;
+    margin: 0 10px;
     background-color: lightgreen;
-    height: 650px;
-    width: 1400px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -31,10 +29,10 @@
 }
 
 .contactsTitleBorder {
+    padding: 10px 0 10px 0;
     height: 20%;
     width: 100%;
     background-color: cadetblue;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -49,8 +47,8 @@
 }
 
 .contactsListBorder {
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: 500px;
     background-color: saddlebrown;
 
     display: flex;
@@ -58,6 +56,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0 0 10px 0;
 }
 
 .contactsList {
@@ -68,12 +67,60 @@
 
 .sendMessageToEmailBorder {
     background-color: lightgoldenrodyellow;
-    width: 50%;
+    width: 100%;
     height: 80%;
-
+    margin: 0 0 10px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .sectionOne {
+        height: 100vh;
+    }
+
+    .borderSectionSix {
+        margin: 70px 20px 20px 20px;
+        background-color: lightgreen;
+        height: 650px;
+        width: 1400px;
+        justify-content: space-around;
+    }
+
+    .contactsListBorder {
+        width: 50%;
+        height: 80%;
+    }
+
+    .sendMessageToEmailBorder {
+        width: 40%;
+        height: 60%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .sectionOne {
+        height: 100vh;
+    }
+
+    .borderSectionSix {
+        margin: 70px 20px 20px 20px;
+        background-color: lightgreen;
+        height: 800px;
+        width: 1700px;
+        justify-content: space-around;
+    }
+
+    .contactsListBorder {
+        width: 50%;
+        height: 80%;
+    }
+
+    .sendMessageToEmailBorder {
+        width: 40%;
+        height: 60%;
+    }
 }

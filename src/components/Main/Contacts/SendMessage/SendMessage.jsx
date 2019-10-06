@@ -8,8 +8,8 @@ const SendMessage = () => {
             <ButtonSendMessage type={`text`} className={css.buttonName} placeholder={`Name`}/>
             <ButtonSendMessage type={`test`} className={css.buttonEmail} placeholder={`Email`}/>
             <ButtonSendMessage type={`text`} className={css.buttonSubject} placeholder={`Subject`}/>
-            <ButtonSendMessage type={`text`} className={css.buttonMessage} placeholder={`Message`}/>
-            <ButtonSendMessage type={`button`} className={css.sendMessage} value={`Send Message`}/>
+            <textarea className={css.buttonMessage} placeholder={`Message`}></textarea>
+            <ButtonSendMessage type={`button`} className={css.sendMessage} value={`Send`}/>
         </div>
     );
 };

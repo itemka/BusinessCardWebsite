@@ -1,0 +1,145 @@
+.sectionOne {
+    width: 100%;
+    font-family: PT Sans, Areal, sans-serif;
+    background-image: url('../../../Files/Images/photo-1536859355448-76f92ebdc33d.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sectionFive {
+    background-image: none;
+    background-color: white;
+}
+
+@media screen and (min-width: 800px) {
+    .borderAround {
+        margin-right: 150px;
+    }
+    .borderAround{
+        padding: 30px;
+    }
+    .sectionOne{
+        justify-content: flex-end;
+    }
+}
+
+.borderAround {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.sectionOneDiv {
+    border: 1px solid #222222;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myText {
+    align-self: self-start;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.buttonCall {
+    width: 280px;
+    color: #222222 !important;
+    border: 0.5px solid #ba986d !important;
+    border-radius: 3px !important;
+    margin-bottom: 20px;
+    padding: 10px !important;
+}
+
+.buttonCall:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.message {
+    width: 280px;
+    color: #222222 !important;
+    border: 0.5px solid #ba986d !important;
+    border-radius: 3px !important;
+    margin-bottom: 20px;
+    padding: 10px !important;
+    font-size: 1.1em;
+}
+
+.message:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.sendCall {
+    background-color: #ba986d !important;
+    color: honeydew !important;
+    border-radius: 0 !important;
+    width: 220px !important;
+}
+
+.sendCall:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.changeButton {
+    display: inline-block;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: all .3s ease;
+    align-self: flex-end;
+}
+
+.changeButton .After {
+    position: absolute;
+    display: block;
+    background-color: #35495e !important;
+    border: 1px solid #35495e;
+    transition: all .2s;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.changeButton .beFor {
+    transform: translateZ(15px);
+}
+
+.changeButton .After {
+    border: 1px solid #42b883;
+    transform: rotateX(-90deg) translateZ(15px);
+}
+
+.changeButton:hover {
+    transform: rotateX(90deg);
+}
+
+@media screen and (min-width: 1920px) {
+    .borderAround {
+        margin-right: 200px;
+    }
+    .borderAround{
+        padding: 30px;
+    }
+    .sectionOne{
+        justify-content: flex-end;
+    }
+    .myText{
+        font-size: 1.3em;
+        margin-bottom: 30px;
+    }
+    .buttonCall{
+        width: 380px;
+    }
+    .message{
+        width: 380px;
+        font-size: 1.5em;
+    }
+}

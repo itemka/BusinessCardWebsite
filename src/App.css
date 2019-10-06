@@ -3,8 +3,41 @@
     src: url("//fonts.googleapis.com/css?family=PT+Sans");
 }
 
+@font-face {
+    font-family: "Download1";
+    src: url("Font/16103.otf");
+}
+
+@font-face {
+    font-family: "Download2";
+    src: url("Font/16761.ttf");
+}
+
+@font-face {
+    font-family: "Download3";
+    src: url("Font/17667.otf");
+}
+
+@font-face {
+    font-family: "Download4";
+    src: url("Font/17668.otf");
+}
+
+@font-face {
+    font-family: "Download5";
+    src: url("Font/17728.ttf");
+}
+
+
 .App {
     width: 100%;
     font-family: PT Sans, Areal, sans-serif;
     color: white;
+    /*font-family: 'Merienda One', cursive;*/
+    /*font-family: 'Suez One', serif;*/
+    /*font-family: 'DM Sans', sans-serif;*/
+    /*font-family: 'Lilita One', cursive;*/
+    /*font-family: 'Concert One', cursive;*/
+    /*font-family: 'Francois One', sans-serif;*/
+    /*font-family: 'Noto Sans', sans-serif;*/
 }

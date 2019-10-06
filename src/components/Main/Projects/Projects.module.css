@@ -1,0 +1,80 @@
+.sectionOne {
+    width: 100%;
+    font-family: PT Sans, Areal, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFour {
+    background-color: #222222;
+}
+
+.borderSectionFour {
+    margin: 10px 10px 10px 10px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerProject {
+    align-self: flex-start;
+    width: 100%;
+    background-color: indianred;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTitle {
+    align-items: center;
+}
+
+.mainProject {
+    background-color: blueviolet;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 795px) and (max-width: 1919px) {
+    .sectionOne {
+        height: 100vh;
+    }
+    .headerProject{
+        height: 20%;
+    }
+    .mainProject{
+        height: 80%;
+    }
+    .borderSectionFour {
+        width: 1300px;
+        height: 650px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .sectionOne {
+        height: 100vh;
+    }
+
+    .borderSectionFour {
+        width: 1700px;
+        height: 800px;
+    }
+}

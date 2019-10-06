@@ -3,7 +3,7 @@ import css from './ButtonSendMessage.module.css';
 
 const ButtonSendMessage = props => {
     return (
-        <input className={`${css.button} ${props.className}`} type={props.type} value={props.value} name="" id="" placeholder={props.placeholder}/>
+        <input className={`${props.className} ${css.button}`} type={props.type} value={props.value} name="" id="" placeholder={props.placeholder}/>
     );
 };
 

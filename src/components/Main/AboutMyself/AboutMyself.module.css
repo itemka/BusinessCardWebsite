@@ -1,0 +1,228 @@
+.sectionOne {
+    width: 100%;
+    font-family: PT Sans, Areal, sans-serif;
+    background-image: url('../../../Files/Images/slide-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoAboutMyself {
+    padding-left: 30px;
+    font-weight: inherit;
+    font-size: 2.3em;
+    /*background-color: #ba986d;*/
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin: 40px 0 10px 0;
+}
+
+.infoAboutMyself div:nth-child(1) {
+    font-family: 'Merienda One', Areal, sans-serif;
+}
+.infoAboutMyself div:nth-child(2) {
+    font-family: Download1, Areal, sans-serif;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.infoAboutMyself div:nth-child(2) span:nth-child(2){
+    color: #f3c26b;
+}
+
+.infoAboutMyself div:nth-child(3) {
+    font-family: Download3, Areal, sans-serif;
+    font-size: 2.3em;
+    text-transform: lowercase !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.infoAboutMyself div:nth-child(3) span:nth-child(1)::after{
+    content: "\00a0 ";
+}
+.infoAboutMyself div:nth-child(3) span:nth-child(2):before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    width: 365px;
+    height: 10px;
+    background-color: #35495e;
+}
+
+.infoAboutMyself div:nth-child(4) {
+    font-family: Download5, Areal, sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.blokFoto {
+    background-color: cadetblue;
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.blokFoto img {
+    transition: .5s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.blokFoto:hover img:nth-child(4) {
+    transform: translate(-50px, 50px);
+    opacity: 1;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.blokFoto:hover img:nth-child(3) {
+    transform: translate(-40px, 40px);
+    opacity: 0.7;
+    filter: brightness(0.6);
+}
+
+.blokFoto:hover img:nth-child(2) {
+    transform: translate(-25px, 25px);
+    opacity: 0.4;
+    filter: brightness(0.3);
+}
+
+.blokFoto:hover img:nth-child(1) {
+    transform: translate(-10px, 10px);
+    opacity: 0.2;
+    filter: brightness(0.1);
+}
+
+.myFoto {
+    width: 80%;
+    position: absolute;
+}
+
+.myFoto:hover {
+    /*transform: scale(1.03);*/
+}
+
+@media screen and (max-width: 508px){
+    .infoAboutMyself{
+        font-size: 2em;
+    }
+    .infoAboutMyself div:nth-child(2) {
+        font-family: Download1, Areal, sans-serif;
+        font-size: 0.5em;
+    }
+    .infoAboutMyself div:nth-child(3) span:nth-child(2):before {
+        content: "";
+        position: absolute;
+        bottom: 10px;
+        width: 316px;
+        height: 10px;
+        background-color: #35495e;
+    }
+    .infoAboutMyself div:nth-child(2) span:nth-child(2){
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 750px) {
+    .infoAboutMyself {
+        width: 90%;
+        height: 300px;
+        /*margin-right: 2%;*/
+        margin: 40px 0 10px 0;
+    }
+
+    .blokFoto {
+        width: 100%;
+        height: 470px;
+        margin: 20px;
+    }
+
+    .myFoto {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 799px) {
+    .sectionOne {
+        height: 100vh;
+    }
+
+    .infoAboutMyself {
+        width: 80%;
+        height: 500px;
+        /*margin-right: 2%;*/
+        margin: 0;
+    }
+
+    .blokFoto {
+        width: 500px;
+        height: 600px;
+        margin: 0;
+    }
+
+    .myFoto {
+        width: 450px;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .sectionOne {
+        height: 100vh;
+    }
+
+    .infoAboutMyself {
+        width: 650px;
+        height: 400px;
+        /*margin-right: 2%;*/
+        margin: 40px 0 10px 0;
+    }
+
+    .blokFoto {
+        width: 500px;
+        height: 600px;
+        margin: 0;
+    }
+
+    .myFoto {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .sectionOne {
+        height: 100vh;
+    }
+
+    .infoAboutMyself {
+        width: 850px;
+        height: 800px;
+        /*margin-right: 2%;*/
+        margin: 0;
+    }
+
+    .blokFoto {
+        width: 600px;
+        height: 800px;
+        margin: 0;
+    }
+
+    .myFoto {
+        width: 550px;
+    }
+}

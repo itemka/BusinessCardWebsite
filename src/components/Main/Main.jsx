@@ -1,20 +1,20 @@
 import React from 'react';
-import SectionOne from "./SectionOne/SectionOne";
-import SectionThree from "./SectionThree/SectionThree";
-import SectionFour from "./SectionFour/SectionFour";
-import SectionFive from "./SectionFive/SectionFive";
-import SectionSix from "./SectionSix/SectionSix";
-import SectionTwo from "./SectionTwo/SectionTwo";
+import AboutMyself from "./AboutMyself/AboutMyself";
+import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
+import OrderCall from "./OrderCall/OrderCall";
+import Contacts from "./Contacts/Contacts";
+import AboutMyself2 from "./AboutMyself2/AboutMyself2";
 
 const Main = () => {
     return (
         <main>
-            <SectionOne/>
-            <SectionTwo/>
-            <SectionThree/>
-            <SectionFour/>
-            <SectionFive/>
-            <SectionSix/>
+            <AboutMyself/>
+            <AboutMyself2/>
+            <Skills/>
+            <Projects/>
+            <OrderCall/>
+            <Contacts/>
         </main>
     );
 };
