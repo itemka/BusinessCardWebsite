@@ -36,8 +36,8 @@
     width: 10em;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 1.5s steps(50, end);
-    animation: type 1.5s steps(50, end);
+    -webkit-animation: type 2s steps(50, end);
+    animation: type 2s steps(50, end);
 }
 
 @keyframes type{
@@ -78,6 +78,7 @@
     font-size: 0.8em;
     background-color: rgba(62, 62, 62, 0.82);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .infoAboutMyself div:nth-child(4) span {

@@ -2,6 +2,7 @@ import React from 'react';
 import css from './Contacts.module.css';
 import SendMessage from "./SendMessage/SendMessage";
 import GeneralTitle from "../../GeneralTitle/GeneralTitle";
+import ContactsList from "./ContactsList/ContactsList";
 
 const Contacts = () => {
     return (
@@ -11,7 +12,7 @@ const Contacts = () => {
                     <GeneralTitle text={`Контакты`}/>
                 </div>
                 <div className={css.contactsListBorder}>
-                    <div className={css.contactsList}>contactsList</div>
+                    <ContactsList/>
                 </div>
                 <div className={css.sendMessageToEmailBorder}>
                     <SendMessage/>
