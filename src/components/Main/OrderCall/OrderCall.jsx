@@ -5,7 +5,7 @@ import GeneralTitle from "../../GeneralTitle/GeneralTitle";
 
 const OrderCall = () => {
     return (
-        <section className={`${css.sectionOne} ${css.sectionFive}`}>
+        <section id={"OrderCall"} className={`${css.sectionOne} ${css.sectionFive}`}>
             <div className={css.title}>
                 <GeneralTitle text={`Я сам с вами свяжусь`}/>
             </div>

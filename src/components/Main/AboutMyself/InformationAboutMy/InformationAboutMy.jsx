@@ -20,7 +20,7 @@ class InformationAboutMy extends React.Component {
             <h1 className={css.infoAboutMyself}>
                 <div>Привет!</div>
                 {this.state.isChange === true
-                    ? <div><span>Меня зовут</span><span>Павленко Артем</span></div>
+                    ? <div><span>Я</span><span>Павленко Артем</span></div>
                     : <div><span>Я</span><span> Junior</span></div>
                 }
                 <div><span>I am </span><span>Frontend Developer</span></div>

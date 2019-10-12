@@ -6,17 +6,17 @@ class NavLink extends React.Component {
 
     state = {
         nav: [
-            {id: 1, navName: `главная`},
-            {id: 2, navName: `обо мне`},
-            {id: 3, navName: `скил`},
-            {id: 4, navName: `проекты`},
-            {id: 5, navName: `контакты`}
+            {id: 1, navName: `главная`, path: `AboutMyself`},
+            {id: 2, navName: `обо мне`, path: `AboutMyself2`},
+            {id: 3, navName: `Навыка`, path: `Skills`},
+            {id: 4, navName: `проекты`, path: `Projects`},
+            {id: 5, navName: `контакты`, path: `Contacts`}
         ]
     };
 
     render() {
         let navLink = this.state.nav.map(item => {
-            return (<div className={css.navItem}>{item.navName}</div>)
+            return (<a href={`#${item.path}`} key={item.id} className={css.navItem}>{item.navName}</a>)
         });
         return (
             <nav className={css.nav}>
@@ -25,6 +25,6 @@ class NavLink extends React.Component {
             </nav>
         );
     }
-};
+}
 
 export default NavLink;

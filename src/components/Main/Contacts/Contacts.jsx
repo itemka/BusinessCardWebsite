@@ -6,7 +6,7 @@ import ContactsList from "./ContactsList/ContactsList";
 
 const Contacts = () => {
     return (
-        <section className={`${css.sectionOne} ${css.sectionSix}`}>
+        <section id={"Contacts"} className={`${css.sectionOne} ${css.sectionSix}`}>
             <div className={css.borderSectionSix}>
                 <div className={css.contactsTitleBorder}>
                     <GeneralTitle text={`Контакты`}/>

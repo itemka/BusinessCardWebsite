@@ -7,12 +7,17 @@
     align-items: flex-start;
     font-size: 16px;
 }
+
 .navItem {
     font-weight: normal;
     text-transform: uppercase;
     margin-right: 2.3%;
     cursor: pointer;
+
+    color: #ffffff;
+    text-decoration: none;
 }
-.navItem:hover{
+
+.navItem:hover {
     border-bottom: 1px solid;
 }

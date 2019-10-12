@@ -1,25 +1,43 @@
-.numberCode{
+.numberCode {
     color: #f3c26b;
 }
-.numberPhone{
+
+.numberPhone {
     font-size: 20px;
     font-weight: bolder;
 }
-.imagePhpne{
+.Link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.imagePhpne {
     content: url("../../../Files/Images/phone-head.png");
 }
-.blockNumber{
+
+.blockNumber {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.orderCall{
+
+.orderCall {
     color: #f3c26b;
     border-bottom: 1px solid;
     cursor: pointer;
+
+    text-decoration: none;
 }
-.orderCall:hover{
+
+.orderCall:hover {
     /*background-color: grey;*/
     border-bottom: 1px solid grey;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+    .blockNumber {
+        align-items: self-start;
+    }
 }

@@ -3,7 +3,7 @@
     padding-left: 30px;
     font-weight: inherit;
     font-size: 2.3em;
-    background-color: rgba(106, 68, 68, 0.4);
+    background-color: rgba(46, 47, 52, 0.4);
     width: 90%;
     height: 300px;
     display: flex;
@@ -36,8 +36,8 @@
     width: 10em;
     white-space:nowrap;
     overflow:hidden;
-    -webkit-animation: type 2s steps(50, end);
-    animation: type 2s steps(50, end);
+    -webkit-animation: type 1.5s steps(50, end);
+    animation: type 1.5s steps(50, end);
 }
 
 @keyframes type{
@@ -89,7 +89,11 @@
     border-right: 2px solid #f3c26b;
 }
 
-
+@media screen and (max-width: 440px) {
+    .infoAboutMyself{
+        background-color: rgba(106, 68, 68, 0);
+    }
+}
 @media screen and (max-width: 508px) {
     .infoAboutMyself {
         font-size: 2em;
@@ -99,6 +103,9 @@
         font-family: Download1, Areal, sans-serif;
         font-size: 0.5em;
     }
+    /*.infoAboutMyself div:nth-child(2) span:nth-child(1){*/
+    /*    font-size: 1.5em;*/
+    /*}*/
 
     .infoAboutMyself div:nth-child(3) span:nth-child(2):before {
         content: "";

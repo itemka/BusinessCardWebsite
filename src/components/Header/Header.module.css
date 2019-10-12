@@ -5,8 +5,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+
+    visibility: visible;
+    position: static;
 }
-.headerTop{
+
+.headerTop {
     position: fixed;
     z-index: 999;
     /*background-color: #1c1c1c80;*/
@@ -16,4 +20,11 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     padding: 25px 25px 0 0;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        visibility: hidden;
+        position: absolute;
+    }
 }

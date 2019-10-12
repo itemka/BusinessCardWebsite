@@ -3,10 +3,12 @@ import './App.css';
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
+import ReactBurgerMenu from "./components/ReactBurgerMenu/ReactBurgerMenu";
 
 function App() {
     return (
         <div className="App">
+            <ReactBurgerMenu/>
             <Header/>
             <Main/>
             <Footer/>

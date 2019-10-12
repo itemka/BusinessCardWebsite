@@ -5,7 +5,7 @@ import GeneralTitle from "../../GeneralTitle/GeneralTitle";
 
 const Projects = () => {
     return (
-        <section className={`${css.sectionOne} ${css.sectionFour}`}>
+        <section id={"Projects"} className={`${css.sectionOne} ${css.sectionFour}`}>
 
             <div className={css.borderSectionFour}>
 
