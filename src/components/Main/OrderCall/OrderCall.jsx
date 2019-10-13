@@ -18,7 +18,7 @@ const OrderCall = () => {
                     <div className={css.changeButton}>
                         <ButtonSendMessage type={`button`} className={`${css.sendCall} ${css.beFor}`} value={`Send?`}/>
                         <ButtonSendMessage type={`button`} className={`${css.sendCall} ${css.After}`} value={`Yes!`}/>
-                    </div>
+                    </div>{/**/}
                 </div>
             </div>
 

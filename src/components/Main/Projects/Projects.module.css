@@ -15,7 +15,7 @@
 
 .borderSectionFour {
     margin: 10px 10px 10px 10px;
-    background-color: burlywood;
+    /*background-color: #cccccc;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@
 .headerProject {
     align-self: flex-start;
     width: 100%;
-    background-color: indianred;
+    /*background-color: #2D2E2E;*/
     height: 20%;
     display: flex;
     flex-direction: row;
@@ -38,7 +38,7 @@
 
 .mainProject {
     align-self: flex-start;
-    background-color: #343436;
+    /*background-color: #343436;*/
     width: 100%;
     height: 80%;
     display: flex;
@@ -46,6 +46,39 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    -webkit-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.buttons{
+    width: 100%;
+    text-align: center;
+    /*background-color: #2D2E2E;*/
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.buttonFilter{
+    padding: 10px 20px;
+
+    font-family: 'Noto Sans', Areal, sans-serif;
+}
+.buttonActive{
+    background-color: #f3c26b;
+    border-radius: 10px;
+    font-family: 'Noto Sans', Areal, sans-serif;
+    /*border-bottom: 2px solid #f3c26b;*/
+    /*margin-bottom: 10px;*/
+}
+.buttonNotActive{
+
 }
 
 @media screen and (min-width: 795px) and (max-width: 1919px) {

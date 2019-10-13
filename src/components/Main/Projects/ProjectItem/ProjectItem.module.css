@@ -1,23 +1,67 @@
 .ProjectItem {
-    width: 250px;
-    height: 250px;
-    background-color: lightcoral;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    width: 300px;
+    height: 300px;
+    /*background-color: lightcoral;*/
     margin: 10px 0 10px 0;
+
+    overflow: hidden;
 }
 
-.ProjectItemTop {
-    background-color: darkcyan;
-    width: 100%;
-    height: 65%;
+.ProjectItem:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45), 0 5px 5px rgba(0, 0, 0, 0.45);
+}
 
+.increase {
+    background-image: url('../../../../Files/Images/slide-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    filter: blur(1px) brightness(0.3);
+}
+
+.increase:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: blur(0);
+}
+.projectTitle {
+    font-family: 'Noto Sans', Areal, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.SeeIt {
+    padding: 5px 40px;
+    background-color: rgba(47,47,49,0.7);
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: Download1, Areal, sans-serif;
+    margin: 20px 0;
+}
+.SeeIt:hover{
+    background-color: rgba(243,194,107,0.7);
+}
+.readMore {
+    padding: 5px 0;
+    font-family: Download2, Areal, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 2px solid #f3c26b;
+}
+.readMore:hover{
+
 }
 
 @media screen and (min-width: 800px) {
@@ -29,26 +73,7 @@
 
 @media screen and (min-width: 1920px) {
     .ProjectItem {
-        width: 450px;
-        height: 550px;
+        width: 500px;
+        height: 400px;
     }
-}
-
-.textOnShadows {
-    align-items: center;
-}
-
-.textBelowShadows {
-    align-items: center;
-}
-
-.ProjectItemBottom {
-    background-color: #2F2F31;
-    width: 100%;
-    height: 35%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
