@@ -6,11 +6,10 @@ class NavLink extends React.Component {
 
     state = {
         nav: [
-            {id: 1, navName: `главная`, path: `AboutMyself`},
-            {id: 2, navName: `обо мне`, path: `AboutMyself2`},
-            {id: 3, navName: `Навыка`, path: `Skills`},
-            {id: 4, navName: `проекты`, path: `Projects`},
-            {id: 5, navName: `контакты`, path: `Contacts`}
+            {id: 1, navName: `Home`, path: `Home`},
+            {id: 2, navName: `Skills`, path: `Skills`},
+            {id: 3, navName: `Projects`, path: `Projects`},
+            {id: 4, navName: `Contacts`, path: `Contacts`}
         ]
     };
 

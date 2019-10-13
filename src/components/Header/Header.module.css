@@ -14,7 +14,7 @@
     position: fixed;
     z-index: 999;
     /*background-color: #1c1c1c80;*/
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

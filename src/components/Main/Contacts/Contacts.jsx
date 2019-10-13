@@ -9,7 +9,7 @@ const Contacts = () => {
         <section id={"Contacts"} className={`${css.sectionOne} ${css.sectionSix}`}>
             <div className={css.borderSectionSix}>
                 <div className={css.contactsTitleBorder}>
-                    <GeneralTitle text={`Контакты`}/>
+                    <GeneralTitle text={`My Contacts`}/>
                 </div>
                 <div className={css.contactsListBorder}>
                     <ContactsList/>

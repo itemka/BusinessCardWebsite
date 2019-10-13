@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /*height: 100vh;*/
+    height: auto;
     color: white;
     display: flex;
     flex-direction: row;
@@ -72,7 +73,8 @@
 
 @media screen and (min-width: 1000px) {
     .sectionOne {
-        height: 100vh;
+        /*height: 100vh;*/
+        height: auto;
     }
 
     .borderSectionSix {
@@ -96,7 +98,8 @@
 
 @media screen and (min-width: 1920px) {
     .sectionOne {
-        height: 100vh;
+        /*height: 100vh;*/
+        height: auto;
     }
 
     .borderSectionSix {

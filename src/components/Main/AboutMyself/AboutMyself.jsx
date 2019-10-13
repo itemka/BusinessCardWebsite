@@ -5,7 +5,7 @@ import InformationAboutMy from "./InformationAboutMy/InformationAboutMy";
 
 const AboutMyself = () => {
     return (
-        <section id={'AboutMyself'} className={`${css.sectionOne} ${css.background}`}>
+        <section id={'Home'} className={`${css.sectionOne} ${css.background}`}>
             <InformationAboutMy/>
             <div className={css.blockPhoto}>
                 <img className={css.myPhoto} src={iPhoto} alt="Pavlenko Artsem"/>

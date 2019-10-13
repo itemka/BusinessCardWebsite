@@ -10,7 +10,6 @@ const Main = () => {
     return (
         <main>
             <AboutMyself/>
-            <AboutMyself2/>
             <Skills/>
             <Projects/>
             <OrderCall/>

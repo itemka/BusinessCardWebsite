@@ -18,12 +18,12 @@ class InformationAboutMy extends React.Component {
     render() {
         return (
             <h1 className={css.infoAboutMyself}>
-                <div>Привет!</div>
+                <div>Hello!</div>
                 {this.state.isChange === true
-                    ? <div><span>Я</span><span>Павленко Артем</span></div>
-                    : <div><span>Я</span><span> Junior</span></div>
+                    ? <div><span>I'm</span><span>Pavlenko Artyom</span></div>
+                    : <div><span>I'm</span><span> Junior</span></div>
                 }
-                <div><span>I am </span><span>Frontend Developer</span></div>
+                <div><span>I'm </span><span>Frontend Developer</span></div>
                 <div><span>JS</span><span>React</span><span>Redux</span></div>
             </h1>
         );

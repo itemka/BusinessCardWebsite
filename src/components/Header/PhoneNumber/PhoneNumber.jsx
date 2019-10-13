@@ -11,7 +11,7 @@ const PhoneNumber = () => {
                     <span className={css.imagePhpne}/>
                     <span className={css.numberCode}>+375 (29)</span>233-39-07</a>
             </div>
-            <a href={"#OrderCall"} className={css.orderCall}>Заказать звонок</a>
+            <a href={"#OrderCall"} className={css.orderCall}>Request a call</a>
         </span>
     );
 };
