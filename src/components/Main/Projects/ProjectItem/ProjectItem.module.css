@@ -5,6 +5,10 @@
     margin: 10px 0 10px 0;
 
     overflow: hidden;
+
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
 }
 
 .ProjectItem:hover {
@@ -16,9 +20,7 @@
     background-size: cover;
     width: 100%;
     height: 100%;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
+
 
     position: relative;
     display: flex;
@@ -31,18 +33,21 @@
 .increase img {
     position: absolute;
     z-index: 10;
+    height: 100%;
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
 }
 .increase:hover img{
-    filter: blur(1px) brightness(0.5);
+    filter: blur(1px) brightness(0.3);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .increase:hover .readMore{
     position: static;
     visibility: visible;
-}
-.increase:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
 }
 .AfterImage{
     position: absolute;
@@ -93,5 +98,9 @@
     .ProjectItem {
         width: 500px;
         height: 400px;
+    }
+    .increase img {
+        width: 100%;
+        height: auto;
     }
 }

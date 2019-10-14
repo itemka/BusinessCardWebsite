@@ -6,12 +6,13 @@ import GeneralTitle from "../../GeneralTitle/GeneralTitle";
 import Laptop_mp4 from "../../../Files/Video/Laptop.mp4";
 import Laptop_webm from "../../../Files/Video/Laptop.webm";
 
-import i3 from '../../../Files/Images/bg.jpg';
-import i4 from '../../../Files/Images/computer.jpg';
-import i5 from '../../../Files/Images/home-bg.jpg';
-import i8 from '../../../Files/Images/photo-1508830524289-0adcbe822b40.jpeg';
+import socialNetwork from '../../../Files/Images/SocialNetwork.png';
+import ToDoList from '../../../Files/Images/ToDoList.png';
+import github
+    from '../../../Files/Images/github-logo_hub2899c31b6ca7aed8d6a218f0e752fe4_46649_1200x1200_fill_box_center_2.png';
 import i9 from '../../../Files/Images/slide-bg-1.jpg';
-import i11 from '../../../Files/Images/wp2465927-javascript-wallpapers.jpg';
+import counter from '../../../Files/Images/counter.png';
+import counter2 from '../../../Files/Images/counter2.png';
 
 const FILTER_ALL = `All`;
 const FILTER_COUNTER = `Counter`;
@@ -23,28 +24,28 @@ class Projects extends React.Component {
         projects: [
             {
                 id: 1,
-                image: i3,
+                image: socialNetwork,
                 filter: null,
                 projectTitle: `Social network`,
                 projectText: `testtest test test test test test vv vtest`
             },
             {
                 id: 2,
-                image: i4,
+                image: ToDoList,
                 filter: null,
                 projectTitle: `To do List`,
                 projectText: `testtesttesttest test test test v vv`
             },
             {
                 id: 3,
-                image: i5,
+                image: counter,
                 filter: FILTER_COUNTER,
                 projectTitle: `Counter (setState)`,
                 projectText: `hjeb gehjrb gehrbgaehrb gjabjar `
             },
             {
                 id: 4,
-                image: i11,
+                image: counter2,
                 filter: FILTER_COUNTER,
                 projectTitle: `Counter (Redux)`,
                 projectText: `Proagndajrgnjadrng ects`
@@ -54,9 +55,9 @@ class Projects extends React.Component {
             },
             {
                 id: 6,
-                image: i8,
+                image: github,
                 filter: FILTER_GITHUB,
-                projectTitle: `These projects on github.com`,
+                projectTitle: `GitHub.com`,
                 projectText: `Cqkjreng jb  rkekg bkqkegb kergkqe gk ontacts`
             },
         ],
@@ -100,14 +101,14 @@ class Projects extends React.Component {
                     <div className={css.mainProject}>
                         <div className={css.buttons}>
                             <div onClick={() => this.changeFilter(FILTER_ALL)}
-                                    className={`${css.buttonFilter} ${classForAll}`}>{FILTER_ALL}</div>
+                                 className={`${css.buttonFilter} ${classForAll}`}>{FILTER_ALL}</div>
                             <div onClick={() => this.changeFilter(FILTER_COUNTER)}
-                                    className={`${css.buttonFilter} ${classForCounter}`}>{FILTER_COUNTER}
+                                 className={`${css.buttonFilter} ${classForCounter}`}>{FILTER_COUNTER}
                             </div>
                             <div onClick={() => this.changeFilter(FILTER_GAME)}
-                                    className={`${css.buttonFilter} ${classForGame}`}>{FILTER_GAME}</div>
+                                 className={`${css.buttonFilter} ${classForGame}`}>{FILTER_GAME}</div>
                             <div onClick={() => this.changeFilter(FILTER_GITHUB)}
-                                    className={`${css.buttonFilter} ${classForGitHub}`}>{FILTER_GITHUB}
+                                 className={`${css.buttonFilter} ${classForGitHub}`}>{FILTER_GITHUB}
                             </div>
                         </div>
                         {projects}

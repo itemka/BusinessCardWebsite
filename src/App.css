@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 @font-face {
     font-family: "PT Sans" !important;
     src: url("//fonts.googleapis.com/css?family=PT+Sans");
@@ -35,3 +38,4 @@
     color: white;
     /*background-color: #38383B;*/
 }
+.App:nth-child(a)

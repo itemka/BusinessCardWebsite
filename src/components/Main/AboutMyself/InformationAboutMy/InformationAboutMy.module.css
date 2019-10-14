@@ -34,17 +34,22 @@
 .infoAboutMyself div:nth-child(2) span:nth-child(2) {
     color: #f3c26b;
     width: 10em;
-    white-space:nowrap;
-    overflow:hidden;
+    white-space: nowrap;
+    overflow: hidden;
     -webkit-animation: type 1.5s steps(50, end);
     animation: type 1.5s steps(50, end);
 }
 
-@keyframes type{
-    from { width: 0; }
+@keyframes type {
+    from {
+        width: 0;
+    }
 }
-@-webkit-keyframes type{
-    from { width: 0; }
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
 }
 
 .infoAboutMyself div:nth-child(3) {
@@ -84,16 +89,18 @@
 .infoAboutMyself div:nth-child(4) span {
     padding: 0 25px;
 }
-.infoAboutMyself div:nth-child(4) span:nth-child(2){
+
+.infoAboutMyself div:nth-child(4) span:nth-child(2) {
     border-left: 2px solid #f3c26b;
     border-right: 2px solid #f3c26b;
 }
 
 @media screen and (max-width: 440px) {
-    .infoAboutMyself{
+    .infoAboutMyself {
         background-color: rgba(106, 68, 68, 0);
     }
 }
+
 @media screen and (max-width: 508px) {
     .infoAboutMyself {
         font-size: 2em;
@@ -103,10 +110,10 @@
         font-family: Download1, Areal, sans-serif;
         font-size: 0.5em;
     }
+
     /*.infoAboutMyself div:nth-child(2) span:nth-child(1){*/
     /*    font-size: 1.5em;*/
     /*}*/
-
     .infoAboutMyself div:nth-child(3) span:nth-child(2):before {
         content: "";
         position: absolute;

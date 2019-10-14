@@ -16,6 +16,14 @@
 .Information {
     font-family: 'Noto Sans', Areal, sans-serif;
 }
+.Information a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.Information a:hover{
+    color: #f3c26b;
+}
+
 
 @media screen and (max-width: 508px) {
 
