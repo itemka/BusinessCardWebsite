@@ -5,12 +5,13 @@ import ProjectItem from "./ProjectItem/ProjectItem";
 import GeneralTitle from "../../GeneralTitle/GeneralTitle";
 import Laptop_mp4 from "../../../Files/Video/Laptop.mp4";
 import Laptop_webm from "../../../Files/Video/Laptop.webm";
-import html5 from "../../../Files/IconSkills/icons8-html-5.svg";
-import css3 from "../../../Files/IconSkills/icons8-css3.svg";
-import js from "../../../Files/IconSkills/icons8-javascript.svg";
-import react from "../../../Files/IconSkills/icons8-react-native.svg";
-import redux from "../../../Files/IconSkills/0_U2DmhXYumRyXH6X1.png";
-import git from "../../../Files/IconSkills/icons8-git.svg";
+
+import i3 from '../../../Files/Images/bg.jpg';
+import i4 from '../../../Files/Images/computer.jpg';
+import i5 from '../../../Files/Images/home-bg.jpg';
+import i8 from '../../../Files/Images/photo-1508830524289-0adcbe822b40.jpeg';
+import i9 from '../../../Files/Images/slide-bg-1.jpg';
+import i11 from '../../../Files/Images/wp2465927-javascript-wallpapers.jpg';
 
 const FILTER_ALL = `All`;
 const FILTER_COUNTER = `Counter`;
@@ -22,38 +23,38 @@ class Projects extends React.Component {
         projects: [
             {
                 id: 1,
-                image: html5,
+                image: i3,
                 filter: null,
                 projectTitle: `Social network`,
                 projectText: `testtest test test test test test vv vtest`
             },
             {
                 id: 2,
-                image: css3,
+                image: i4,
                 filter: null,
                 projectTitle: `To do List`,
                 projectText: `testtesttesttest test test test v vv`
             },
             {
                 id: 3,
-                image: js,
+                image: i5,
                 filter: FILTER_COUNTER,
                 projectTitle: `Counter (setState)`,
                 projectText: `hjeb gehjrb gehrbgaehrb gjabjar `
             },
             {
                 id: 4,
-                image: react,
+                image: i11,
                 filter: FILTER_COUNTER,
                 projectTitle: `Counter (Redux)`,
                 projectText: `Proagndajrgnjadrng ects`
             },
             {
-                id: 5, image: redux, filter: FILTER_GAME, projectTitle: `React Dog Game`, projectText: `Co njrg ntacts`
+                id: 5, image: i9, filter: FILTER_GAME, projectTitle: `React Dog Game`, projectText: `Co njrg ntacts`
             },
             {
                 id: 6,
-                image: git,
+                image: i8,
                 filter: FILTER_GITHUB,
                 projectTitle: `These projects on github.com`,
                 projectText: `Cqkjreng jb  rkekg bkqkegb kergkqe gk ontacts`

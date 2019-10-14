@@ -2,7 +2,7 @@
     width: 100%;
     font-family: PT Sans, Areal, sans-serif;
     /*background-image: url('../../../Files/Images/photo-1508830524289-0adcbe822b40.jpeg');*/
-    background-image: url(https://nour-theme.netlify.com/assets/images/icon/map_img.png);
+    /*background-image: url(https://nour-theme.netlify.com/assets/images/icon/map_img.png);*/
     background-repeat: no-repeat;
     background-size: cover;
     /*height: 100vh;*/
@@ -61,7 +61,7 @@
 .sendMessageToEmailBorder {
     background-color: #2D2E2E;
     width: 100%;
-    height: 80%;
+    height: auto;
     margin: 0 0 10px 0;
     display: flex;
     flex-direction: row;
@@ -78,7 +78,7 @@
     }
 
     .borderSectionSix {
-        margin: 70px 20px 20px 20px;
+        margin: 0 20px 20px 20px;
         height: 650px;
         width: 1400px;
         justify-content: space-around;

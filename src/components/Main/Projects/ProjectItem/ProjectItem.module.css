@@ -12,7 +12,6 @@
 }
 
 .increase {
-    background-image: url('../../../../Files/Images/slide-bg-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -26,15 +25,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    filter: blur(0);
 
-    filter: blur(1px) brightness(0.3);
 }
-
+.increase img {
+    position: absolute;
+    z-index: 10;
+}
+.increase:hover img{
+    filter: blur(1px) brightness(0.5);
+}
+.increase:hover .readMore{
+    position: static;
+    visibility: visible;
+}
 .increase:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    filter: blur(0);
+}
+.AfterImage{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
 }
 .projectTitle {
     font-family: 'Noto Sans', Areal, sans-serif;
@@ -54,6 +70,8 @@
     background-color: rgba(243,194,107,0.7);
 }
 .readMore {
+    visibility: hidden;
+    position: absolute;
     padding: 5px 0;
     font-family: Download2, Areal, sans-serif;
     font-size: 1em;
