@@ -1,16 +1,16 @@
 
 .infoAboutMyself {
-    padding-left: 30px;
+    padding-left: auto;
     font-weight: inherit;
     font-size: 2.3em;
     background-color: rgba(46, 47, 52, 0.4);
     width: 90%;
-    height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: self-start;
-    margin: 40px 0 10px 0;
+    margin: 40px 0 5px 0;
     z-index: 1000;
 }
 
@@ -23,6 +23,8 @@
     font-size: 0.8em;
     display: flex;
     flex-direction: row;
+    justify-items: center;
+    align-items: center;
     flex-wrap: wrap;
     position: relative;
 }
@@ -110,6 +112,12 @@
         font-family: Download1, Areal, sans-serif;
         font-size: 0.5em;
     }
+    .infoAboutMyself div:nth-child(2) span:nth-child(1){
+        font-size: 1.3em;
+    }
+    .infoAboutMyself div:nth-child(3) {
+        font-size: 1.8em;
+    }
 
     /*.infoAboutMyself div:nth-child(2) span:nth-child(1){*/
     /*    font-size: 1.5em;*/
@@ -118,13 +126,13 @@
         content: "";
         position: absolute;
         bottom: 10px;
-        width: 316px;
-        height: 10px;
+        width: 0;
+        height: 0;
         background-color: #35495e;
     }
 
     .infoAboutMyself div:nth-child(2) span:nth-child(2) {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 }
 
@@ -153,6 +161,7 @@
         height: 400px;
         /*margin-right: 2%;*/
         margin: 40px 0 10px 0;
+        padding-left: 30px;
     }
 }
 

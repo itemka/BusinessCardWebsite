@@ -10,7 +10,7 @@ class ProjectItem extends React.Component {
                     <div className={css.AfterImage}>
                         <div className={css.projectTitle}>{this.props.projectTitle}</div>
                         <div className={css.SeeIt}>See it</div>
-                        <div className={css.readMore}>Rade More</div>
+                        <span data-descr={this.props.projectText} className={css.readMore}>Rade More</span>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ const PhoneNumber = () => {
     return (
         <span className={css.blockNumber}>
             <div className={css.numberPhone}>
-                <a href={"#"}
+                <a href={"tel:+375292333907"}
                    className={css.Link}
                    type={"number"}>
                     <span className={css.imagePhpne}/>

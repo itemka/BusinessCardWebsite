@@ -10,13 +10,14 @@ const Footer = () => {
     return (
         <footer className={css.footer}>
             <div className={css.iconSN}>
-                <a href="https://t.me/item_ka"><img className={css.icon} src={telegram} alt=""/></a>
-                <a href="https://www.facebook.com/profile.php?id=100004583561001"><img className={css.icon}
+                {/*https://t.me/item_ka*/}
+                <a href="tg://resolve?domain=item_ka" target="_blank"><img className={css.icon} src={telegram} alt=""/></a>
+                <a href="https://www.facebook.com/profile.php?id=100004583561001" target="_blank"><img className={css.icon}
                                                                                        src={facebook} alt=""/></a>
-                <a href="https://www.instagram.com/item_ka/"><img className={css.icon} src={instagram} alt=""/></a>
-                <a href="https://www.linkedin.com/in/artem-pavlenko-001b7a191/"><img className={css.icon} src={linkedin}
+                <a href="https://www.instagram.com/item_ka/" target="_blank"><img className={css.icon} src={instagram} alt=""/></a>
+                <a href="https://www.linkedin.com/in/artem-pavlenko-001b7a191/" target="_blank"><img className={css.icon} src={linkedin}
                                                                                      alt=""/></a>
-                <a href="https://vk.com/item_ka"><img className={css.icon} src={vk} alt=""/></a>
+                <a href="https://vk.com/item_ka" target="_blank"><img className={css.icon} src={vk} alt=""/></a>
             </div>
             <div className={css.bottom}>© 2019 <span>All Rights Reserved</span></div>
         </footer>

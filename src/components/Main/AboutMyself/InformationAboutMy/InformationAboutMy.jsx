@@ -23,7 +23,7 @@ class InformationAboutMy extends React.Component {
                     ? <div><span>I'm</span><span>Pavlenko Artyom</span></div>
                     : <div><span>I'm</span><span> Junior</span></div>
                 }
-                <div><span>I'm </span><span>Frontend Developer</span></div>
+                <div><span>I'm</span><span>Frontend Developer</span></div>
                 <div><span>JS</span><span>React</span><span>Redux</span></div>
             </h1>
         );

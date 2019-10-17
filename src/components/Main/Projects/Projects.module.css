@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(28,28,28,0.8);
+    /*background-color: rgba(28,28,28,0.8);*/
 }
 
 .borderSectionFour {
@@ -53,7 +53,7 @@
     transition: .2s ease-out;
 }
 
-.buttons{
+.buttons {
     width: 100%;
     text-align: center;
     /*background-color: #2D2E2E;*/
@@ -65,19 +65,22 @@
     justify-content: center;
     align-items: center;
 }
-.buttonFilter{
+
+.buttonFilter {
     padding: 10px 20px;
 
     font-family: 'Noto Sans', Areal, sans-serif;
 }
-.buttonActive{
+
+.buttonActive {
     background-color: #f3c26b;
     border-radius: 10px;
     font-family: 'Noto Sans', Areal, sans-serif;
     /*border-bottom: 2px solid #f3c26b;*/
     /*margin-bottom: 10px;*/
 }
-.buttonNotActive{
+
+.buttonNotActive {
 
 }
 
@@ -86,12 +89,15 @@
         /*height: 100vh;*/
         height: auto;
     }
-    .headerProject{
+
+    .headerProject {
         height: 20%;
     }
-    .mainProject{
+
+    .mainProject {
         height: auto;
     }
+
     .borderSectionFour {
         width: 1300px;
         /*height: 650px;*/
@@ -123,6 +129,7 @@
     z-index: -1;
 
 }
+
 .video_bg > video {
     position: absolute;
     top: 0;
@@ -132,6 +139,7 @@
     width: auto;
     height: auto;
 }
+
 @supports (object-fit: cover) {
     .video_bg > video {
         top: 0;

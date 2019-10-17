@@ -13,6 +13,7 @@ import github
 import i9 from '../../../Files/Images/slide-bg-1.jpg';
 import counter from '../../../Files/Images/counter.png';
 import counter2 from '../../../Files/Images/counter2.png';
+import Fade from 'react-reveal/Fade';
 
 const FILTER_ALL = `All`;
 const FILTER_COUNTER = `Counter`;
@@ -27,38 +28,42 @@ class Projects extends React.Component {
                 image: socialNetwork,
                 filter: null,
                 projectTitle: `Social network`,
-                projectText: `testtest test test test test test vv vtest`
+                projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
             },
             {
                 id: 2,
                 image: ToDoList,
                 filter: null,
                 projectTitle: `To do List`,
-                projectText: `testtesttesttest test test test v vv`
+                projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
             },
             {
                 id: 3,
                 image: counter,
                 filter: FILTER_COUNTER,
                 projectTitle: `Counter (setState)`,
-                projectText: `hjeb gehjrb gehrbgaehrb gjabjar `
+                projectText: `Next evening was Halloween. The girls were at the school disco. “Are you better now?” asked Tara.`
             },
             {
                 id: 4,
                 image: counter2,
                 filter: FILTER_COUNTER,
                 projectTitle: `Counter (Redux)`,
-                projectText: `Proagndajrgnjadrng ects`
+                projectText: `The next morning, Amy’s mum and dad were listening to the radio. “Is Amy up yet?” Dad asked.`
             },
             {
-                id: 5, image: i9, filter: FILTER_GAME, projectTitle: `React Dog Game`, projectText: `Co njrg ntacts`
+                id: 5,
+                image: i9,
+                filter: FILTER_GAME,
+                projectTitle: `React Dog Game`,
+                projectText: `“Hi Amy! Your mum sent me a text. You forgot your inhaler. Why don’t you turn your phone on?” Amy didn’t like technology.`
             },
             {
                 id: 6,
                 image: github,
                 filter: FILTER_GITHUB,
                 projectTitle: `GitHub.com`,
-                projectText: `Cqkjreng jb  rkekg bkqkegb kergkqe gk ontacts`
+                projectText: `Kamal and Grant arrived. “Hi Kamal!” said Tara. “Are you going to the Halloween`
             },
         ],
         filterValue: FILTER_ALL,
@@ -88,32 +93,34 @@ class Projects extends React.Component {
         let classForGitHub = this.state.filterValue === FILTER_GITHUB ? css.buttonActive : css.buttonNotActive;
         return (
             <section id={"Projects"} className={`${css.Projects}`}>
-                <div className={css.video_bg}>
-                    <video width={`100%`} height={`auto`} preload={`auto`} autoPlay={`autoplay`} loop={`loop`}>
-                        <source src={`Laptop_mp4`} type={`video/mp4`}/>
-                        <source src={`Laptop_webm`} type={`video/webm`}/>
-                    </video>
-                </div>
-                <div className={css.borderSectionFour}>
-                    <div className={css.headerProject}>
-                        <GeneralTitle text={`My Projects`}/>
-                    </div>
-                    <div className={css.mainProject}>
-                        <div className={css.buttons}>
-                            <div onClick={() => this.changeFilter(FILTER_ALL)}
-                                 className={`${css.buttonFilter} ${classForAll}`}>{FILTER_ALL}</div>
-                            <div onClick={() => this.changeFilter(FILTER_COUNTER)}
-                                 className={`${css.buttonFilter} ${classForCounter}`}>{FILTER_COUNTER}
-                            </div>
-                            <div onClick={() => this.changeFilter(FILTER_GAME)}
-                                 className={`${css.buttonFilter} ${classForGame}`}>{FILTER_GAME}</div>
-                            <div onClick={() => this.changeFilter(FILTER_GITHUB)}
-                                 className={`${css.buttonFilter} ${classForGitHub}`}>{FILTER_GITHUB}
-                            </div>
+                <Fade right>
+                    {/*<div className={css.video_bg}>*/}
+                    {/*    <video width={`100%`} height={`auto`} preload={`auto`} autoPlay={`autoplay`} loop={`loop`}>*/}
+                    {/*        <source src={`Laptop_mp4`} type={`video/mp4`}/>*/}
+                    {/*        <source src={`Laptop_webm`} type={`video/webm`}/>*/}
+                    {/*    </video>*/}
+                    {/*</div>*/}
+                    <div className={css.borderSectionFour}>
+                        <div className={css.headerProject}>
+                            <GeneralTitle text={`My Projects`}/>
                         </div>
-                        {projects}
+                        <div className={css.mainProject}>
+                            <div className={css.buttons}>
+                                <div onClick={() => this.changeFilter(FILTER_ALL)}
+                                     className={`${css.buttonFilter} ${classForAll}`}>{FILTER_ALL}</div>
+                                <div onClick={() => this.changeFilter(FILTER_COUNTER)}
+                                     className={`${css.buttonFilter} ${classForCounter}`}>{FILTER_COUNTER}
+                                </div>
+                                <div onClick={() => this.changeFilter(FILTER_GAME)}
+                                     className={`${css.buttonFilter} ${classForGame}`}>{FILTER_GAME}</div>
+                                <div onClick={() => this.changeFilter(FILTER_GITHUB)}
+                                     className={`${css.buttonFilter} ${classForGitHub}`}>{FILTER_GITHUB}
+                                </div>
+                            </div>
+                            {projects}
+                        </div>
                     </div>
-                </div>
+                </Fade>
             </section>
         );
     }

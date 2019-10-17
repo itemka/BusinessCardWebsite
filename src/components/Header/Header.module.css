@@ -15,10 +15,13 @@
     z-index: 999;
     /*background-color: #1c1c1c80;*/
     width: 40%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+
+    right: 0;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: flex-end;*/
+
     padding: 25px 25px 0 0;
 }
 

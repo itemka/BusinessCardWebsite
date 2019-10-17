@@ -70,7 +70,7 @@
 }
 
 .myPhoto {
-    width: 80%;
+    width: 65%;
     position: absolute;
 }
 
@@ -78,6 +78,13 @@
     /*transform: scale(1.03);*/
 }
 
+@media screen and (max-width: 413px) {
+    .blockPhoto {
+        width: 90%;
+        height: 470px;
+        margin: auto;
+    }
+}
 @media screen and (min-width: 414px) and (max-width: 750px) {
     .blockPhoto {
         width: 100%;
