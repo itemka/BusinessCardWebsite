@@ -3,8 +3,8 @@ import css from './Projects.module.css';
 import './Projects.module.css';
 import ProjectItem from "./ProjectItem/ProjectItem";
 import GeneralTitle from "../../GeneralTitle/GeneralTitle";
-import Laptop_mp4 from "../../../Files/Video/Laptop.mp4";
-import Laptop_webm from "../../../Files/Video/Laptop.webm";
+// import Laptop_mp4 from "../../../Files/Video/Laptop.mp4";
+// import Laptop_webm from "../../../Files/Video/Laptop.webm";
 
 import socialNetwork from '../../../Files/Images/SocialNetwork.png';
 import ToDoList from '../../../Files/Images/ToDoList.png';
@@ -90,8 +90,8 @@ class Projects extends React.Component {
             <section id={"Projects"} className={`${css.Projects}`}>
                 <div className={css.video_bg}>
                     <video width={`100%`} height={`auto`} preload={`auto`} autoPlay={`autoplay`} loop={`loop`}>
-                        <source src={Laptop_mp4} type={`video/mp4`}/>
-                        <source src={Laptop_webm} type={`video/webm`}/>
+                        <source src={`Laptop_mp4`} type={`video/mp4`}/>
+                        <source src={`Laptop_webm`} type={`video/webm`}/>
                     </video>
                 </div>
                 <div className={css.borderSectionFour}>

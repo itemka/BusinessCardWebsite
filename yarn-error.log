@@ -1,0 +1,66 @@
+Arguments: 
+  /usr/local/bin/node /Users/itemka/Developer/Projects/BusinessCardWebsite/node_modules/.bin/yarn add gh-pages —dev
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin:/Users/itemka/Developer/Projects/BusinessCardWebsite/node_modules/.bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.6.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:139:13)
+      at Object.request (https.js:309:10)
+      at Request.module.exports.Request.start (/Users/itemka/Developer/Projects/BusinessCardWebsite/node_modules/yarn/lib/cli.js:141126:32)
+      at Request.module.exports.Request.end (/Users/itemka/Developer/Projects/BusinessCardWebsite/node_modules/yarn/lib/cli.js:141885:10)
+      at end (/Users/itemka/Developer/Projects/BusinessCardWebsite/node_modules/yarn/lib/cli.js:140939:14)
+      at Immediate._onImmediate (/Users/itemka/Developer/Projects/BusinessCardWebsite/node_modules/yarn/lib/cli.js:140953:7)
+      at processImmediate (internal/timers.js:439:21)
+
+npm manifest: 
+  {
+    "name": "new",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.9.0",
+      "react-burger-menu": "^2.6.11",
+      "react-dom": "^16.9.0",
+      "react-scripts": "3.1.1",
+      "react-scrollable-anchor": "^0.6.1",
+      "yarn": "^1.19.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

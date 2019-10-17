@@ -7,7 +7,7 @@ import css3 from '../../../Files/IconSkills/icons8-css3.svg';
 import react from '../../../Files/IconSkills/icons8-react-native.svg';
 import redux from '../../../Files/IconSkills/0_U2DmhXYumRyXH6X1.png';
 import js from '../../../Files/IconSkills/icons8-javascript.svg';
-import git from '../../../Files/IconSkills/icons8-git.svg';
+// import git from '../../../Files/IconSkills/icons8-git.svg';
 import github from '../../../Files/IconSkills/icons8-github-96(2).png';
 
 class Skills extends React.Component {
@@ -18,7 +18,7 @@ class Skills extends React.Component {
             {id: 3, icon: js, skillTitle: `JS (ES6)`, skillText: `hjeb gehjrb gehrbgaehrb gjabjar `},
             {id: 4, icon: react, skillTitle: `React`, skillText: `Proagndajrgnjadrng ects`},
             {id: 5, icon: redux, skillTitle: `Redux`, skillText: `Co njrg ntacts`},
-            {id: 6, icon: git, skillTitle: `git`, skillText: `Cqkjreng jb  rkekg bkbbb kjgr bg kqrg kbb jekr qkegb kergkqe gk ontacts`},
+            // {id: 6, icon: git, skillTitle: `git`, skillText: `Cqkjreng jb  rkekg bkbbb kjgr bg kqrg kbb jekr qkegb kergkqe gk ontacts`},
             {id: 6, icon: github, skillTitle: `github`, skillText: `Cqkjreng jb  rkekg bkbbb kjgr bg kqrg kbb jekr qkegb kergkqe gk ontacts`},
         ]
     };
