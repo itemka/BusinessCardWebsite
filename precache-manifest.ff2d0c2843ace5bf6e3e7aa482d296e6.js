@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6dfd37eb29774a26801b8866ba78f2f0",
+    "revision": "f093f30970054ad966b69589d5c79437",
     "url": "/BusinessCardWebsite/index.html"
   },
   {
-    "revision": "b9fc05d8d68c83cbf3d6",
-    "url": "/BusinessCardWebsite/static/css/main.5ff71e01.chunk.css"
+    "revision": "74d2bb814f836588a5ed",
+    "url": "/BusinessCardWebsite/static/css/main.7e29063b.chunk.css"
   },
   {
     "revision": "32aea5ef01d703c5166c",
     "url": "/BusinessCardWebsite/static/js/2.ee58707f.chunk.js"
   },
   {
-    "revision": "b9fc05d8d68c83cbf3d6",
+    "revision": "74d2bb814f836588a5ed",
     "url": "/BusinessCardWebsite/static/js/main.de137521.chunk.js"
   },
   {
