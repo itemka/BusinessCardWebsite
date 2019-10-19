@@ -11,6 +11,8 @@ const OrderCall = () => {
                 <div className={css.title}>
                     <GeneralTitle text={`I will contact you!`}/>
                 </div>
+            </Flip>
+            <Flip left>
                 <div className={css.borderAround}>
                     <div className={css.sectionOneDiv}>
                         <div className={css.myText}>Submit your application</div>
@@ -19,8 +21,8 @@ const OrderCall = () => {
                                            placeholder={`+375(29) 233-39-07`}/>
                         <textarea className={css.message} placeholder={`Message`} rows={`4`}>{}</textarea>
                         <div className={css.changeButton}>
-                            <ButtonSendMessage type={`button`} className={`${css.sendCall} ${css.beFor}`}
-                                               value={`Send?`}/>
+                            {/*<ButtonSendMessage type={`button`} className={`${css.sendCall} ${css.beFor}`}*/}
+                            {/*                   value={`Send?`}/>*/}
                             <ButtonSendMessage type={`button`} className={`${css.sendCall} ${css.After}`}
                                                value={`Yes!`}/>
                         </div>

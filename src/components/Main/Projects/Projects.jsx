@@ -8,17 +8,13 @@ import GeneralTitle from "../../GeneralTitle/GeneralTitle";
 
 import socialNetwork from '../../../Files/Images/SocialNetwork.png';
 import ToDoList from '../../../Files/Images/ToDoList.png';
-import github
-    from '../../../Files/Images/github-logo_hub2899c31b6ca7aed8d6a218f0e752fe4_46649_1200x1200_fill_box_center_2.png';
 import i9 from '../../../Files/Images/slide-bg-1.jpg';
 import counter from '../../../Files/Images/counter.png';
 import counter2 from '../../../Files/Images/counter2.png';
-import Fade from 'react-reveal/Fade';
 
 const FILTER_ALL = `All`;
 const FILTER_COUNTER = `Counter`;
 const FILTER_GAME = `Game`;
-const FILTER_GITHUB = `GitHub`;
 
 class Projects extends React.Component {
     state = {
@@ -27,6 +23,8 @@ class Projects extends React.Component {
                 id: 1,
                 image: socialNetwork,
                 filter: null,
+                link: "https://itemka.github.io/SocialNetworkApp/",
+                viewCode: "https://github.com/itemka/SocialNetworkApp",
                 projectTitle: `Social network`,
                 projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
             },
@@ -34,6 +32,8 @@ class Projects extends React.Component {
                 id: 2,
                 image: ToDoList,
                 filter: null,
+                link: "https://itemka.github.io/ToDoList2/",
+                viewCode: "https://github.com/itemka/ToDoList2",
                 projectTitle: `To do List`,
                 projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
             },
@@ -41,6 +41,8 @@ class Projects extends React.Component {
                 id: 3,
                 image: counter,
                 filter: FILTER_COUNTER,
+                link: "https://itemka.github.io/Counter-setState-/",
+                viewCode: "https://github.com/itemka/Counter-setState-",
                 projectTitle: `Counter (setState)`,
                 projectText: `Next evening was Halloween. The girls were at the school disco. “Are you better now?” asked Tara.`
             },
@@ -48,6 +50,8 @@ class Projects extends React.Component {
                 id: 4,
                 image: counter2,
                 filter: FILTER_COUNTER,
+                link: "https://itemka.github.io/Counter-Redux-/",
+                viewCode: "https://github.com/itemka/Counter-Redux-",
                 projectTitle: `Counter (Redux)`,
                 projectText: `The next morning, Amy’s mum and dad were listening to the radio. “Is Amy up yet?” Dad asked.`
             },
@@ -55,15 +59,10 @@ class Projects extends React.Component {
                 id: 5,
                 image: i9,
                 filter: FILTER_GAME,
+                link: "https://itemka.github.io/ReactDogApp/",
+                viewCode: "https://github.com/itemka/ReactDogApp",
                 projectTitle: `React Dog Game`,
                 projectText: `“Hi Amy! Your mum sent me a text. You forgot your inhaler. Why don’t you turn your phone on?” Amy didn’t like technology.`
-            },
-            {
-                id: 6,
-                image: github,
-                filter: FILTER_GITHUB,
-                projectTitle: `GitHub.com`,
-                projectText: `Kamal and Grant arrived. “Hi Kamal!” said Tara. “Are you going to the Halloween`
             },
         ],
         filterValue: FILTER_ALL,
@@ -78,11 +77,17 @@ class Projects extends React.Component {
                 if (this.state.filterValue === FILTER_ALL) {
                     return <ProjectItem id={item.id} image={item.image}
                                         projectTitle={item.projectTitle}
-                                        projectText={item.projectText} filter={item.filter}/>
+                                        projectText={item.projectText}
+                                        filter={item.filter}
+                                        link={item.link}
+                                        viewCode={item.viewCode}/>
                 } else if (this.state.filterValue === item.filter) {
                     return <ProjectItem id={item.id} image={item.image}
                                         projectTitle={item.projectTitle}
-                                        projectText={item.projectText} filter={item.filter}/>
+                                        projectText={item.projectText}
+                                        filter={item.filter}
+                                        link={item.link}
+                                        viewCode={item.viewCode}/>
                 }
             }
         );
@@ -90,37 +95,31 @@ class Projects extends React.Component {
         let classForAll = this.state.filterValue === FILTER_ALL ? css.buttonActive : css.buttonNotActive;
         let classForCounter = this.state.filterValue === FILTER_COUNTER ? css.buttonActive : css.buttonNotActive;
         let classForGame = this.state.filterValue === FILTER_GAME ? css.buttonActive : css.buttonNotActive;
-        let classForGitHub = this.state.filterValue === FILTER_GITHUB ? css.buttonActive : css.buttonNotActive;
         return (
             <section id={"Projects"} className={`${css.Projects}`}>
-                <Fade right>
-                    {/*<div className={css.video_bg}>*/}
-                    {/*    <video width={`100%`} height={`auto`} preload={`auto`} autoPlay={`autoplay`} loop={`loop`}>*/}
-                    {/*        <source src={`Laptop_mp4`} type={`video/mp4`}/>*/}
-                    {/*        <source src={`Laptop_webm`} type={`video/webm`}/>*/}
-                    {/*    </video>*/}
-                    {/*</div>*/}
-                    <div className={css.borderSectionFour}>
-                        <div className={css.headerProject}>
-                            <GeneralTitle text={`My Projects`}/>
-                        </div>
-                        <div className={css.mainProject}>
-                            <div className={css.buttons}>
-                                <div onClick={() => this.changeFilter(FILTER_ALL)}
-                                     className={`${css.buttonFilter} ${classForAll}`}>{FILTER_ALL}</div>
-                                <div onClick={() => this.changeFilter(FILTER_COUNTER)}
-                                     className={`${css.buttonFilter} ${classForCounter}`}>{FILTER_COUNTER}
-                                </div>
-                                <div onClick={() => this.changeFilter(FILTER_GAME)}
-                                     className={`${css.buttonFilter} ${classForGame}`}>{FILTER_GAME}</div>
-                                <div onClick={() => this.changeFilter(FILTER_GITHUB)}
-                                     className={`${css.buttonFilter} ${classForGitHub}`}>{FILTER_GITHUB}
-                                </div>
-                            </div>
-                            {projects}
-                        </div>
+                {/*<div className={css.video_bg}>*/}
+                {/*    <video width={`100%`} height={`auto`} preload={`auto`} autoPlay={`autoplay`} loop={`loop`}>*/}
+                {/*        <source src={`Laptop_mp4`} type={`video/mp4`}/>*/}
+                {/*        <source src={`Laptop_webm`} type={`video/webm`}/>*/}
+                {/*    </video>*/}
+                {/*</div>*/}
+                <div className={css.borderSectionFour}>
+                    <div className={css.headerProject}>
+                        <GeneralTitle text={`My Projects`}/>
                     </div>
-                </Fade>
+                    <div className={css.mainProject}>
+                        <div className={css.buttons}>
+                            <div onClick={() => this.changeFilter(FILTER_ALL)}
+                                 className={`${css.buttonFilter} ${classForAll}`}>{FILTER_ALL}</div>
+                            <div onClick={() => this.changeFilter(FILTER_COUNTER)}
+                                 className={`${css.buttonFilter} ${classForCounter}`}>{FILTER_COUNTER}
+                            </div>
+                            <div onClick={() => this.changeFilter(FILTER_GAME)}
+                                 className={`${css.buttonFilter} ${classForGame}`}>{FILTER_GAME}</div>
+                        </div>
+                        {projects}
+                    </div>
+                </div>
             </section>
         );
     }

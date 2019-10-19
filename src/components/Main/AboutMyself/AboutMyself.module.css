@@ -11,7 +11,7 @@
 }
 
 .background {
-    background-image: url('../../../Files/Images/slide-bg-1.jpg');
+    /*background-image: url('../../../Files/Images/slide-bg-1.jpg');*/
     background-repeat: no-repeat;
     background-size: cover;
     /*filter: blur(3px) contrast(.8) brightness(0.6);*/

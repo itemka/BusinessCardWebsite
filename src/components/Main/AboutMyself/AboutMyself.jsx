@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './AboutMyself.module.css';
-import iPhoto from './../../../Files/Images/F36ACF47-E4BD-473C-928C-6CD03CCF4B0C.jpg';
+import iPhoto from './../../../Files/Images/item_ka.jpg';
 import InformationAboutMy from "./InformationAboutMy/InformationAboutMy";
 import Fade from 'react-reveal/Fade';
 

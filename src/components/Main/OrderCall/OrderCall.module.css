@@ -119,7 +119,7 @@
 }
 
 .changeButton .After {
-    position: absolute;
+    /*position: absolute;*/
     display: block;
     background-color: #f3c26b !important;
     transition: all .2s;
@@ -130,17 +130,17 @@
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
 }
 
-.changeButton .beFor {
-    transform: translateZ(15px);
-}
+/*    .changeButton .beFor {*/
+/*        transform: translateZ(15px);*/
+/*    }*/
 
-.changeButton .After {
-    transform: rotateX(-90deg) translateZ(15px);
-}
+/*    .changeButton .After {*/
+/*        transform: rotateX(-90deg) translateZ(15px);*/
+/*    }*/
 
-.changeButton:hover {
-    transform: rotateX(90deg);
-}
+/*    .changeButton:hover {*/
+/*        transform: rotateX(90deg);*/
+/*    }*/
 
 @media screen and (min-width: 800px) {
     .borderAround {
