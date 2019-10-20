@@ -1,3 +1,12 @@
+.particles{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
 .sectionOne {
     width: 100%;
     font-family: PT Sans, Areal, sans-serif;
@@ -11,9 +20,10 @@
 }
 
 .background {
-    /*background-image: url('../../../Files/Images/slide-bg-1.jpg');*/
+    /*background-image: url('../../../Files/Images/slide.JPG');*/
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(45,46,46,0.9);
     /*filter: blur(3px) contrast(.8) brightness(0.6);*/
 }
 

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ed1f7835ffc6ed38baa64fb0c7e8f4d",
+    "revision": "5ae88c3246d4feeb8c9abec49b6e8c99",
     "url": "/BusinessCardWebsite/index.html"
   },
   {
-    "revision": "d3f280a9cf5396889280",
-    "url": "/BusinessCardWebsite/static/css/main.4a2c41ca.chunk.css"
+    "revision": "7f6b38af9c5c127c3683",
+    "url": "/BusinessCardWebsite/static/css/main.59c4662f.chunk.css"
   },
   {
-    "revision": "71698bd9a47df35befba",
-    "url": "/BusinessCardWebsite/static/js/2.6826b72f.chunk.js"
+    "revision": "4e5045c4be31db7fbf66",
+    "url": "/BusinessCardWebsite/static/js/2.82671bd3.chunk.js"
   },
   {
-    "revision": "d3f280a9cf5396889280",
-    "url": "/BusinessCardWebsite/static/js/main.8764308b.chunk.js"
+    "revision": "7f6b38af9c5c127c3683",
+    "url": "/BusinessCardWebsite/static/js/main.02400986.chunk.js"
   },
   {
     "revision": "08f49c9c50308404d5f8",
@@ -44,10 +44,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BusinessCardWebsite/static/media/17728.10043e21.ttf"
   },
   {
-    "revision": "3a8200d9f6f60acb925a31c05b96a8cc",
-    "url": "/BusinessCardWebsite/static/media/F36ACF47-E4BD-473C-928C-6CD03CCF4B0C.3a8200d9.jpg"
-  },
-  {
     "revision": "963bb056c23b1f00a35c817021eb8d6d",
     "url": "/BusinessCardWebsite/static/media/SocialNetwork.963bb056.png"
   },
@@ -68,10 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BusinessCardWebsite/static/media/facebook.c0cd1382.svg"
   },
   {
-    "revision": "a3d793bb3d518f4f8eeae44e53dc6814",
-    "url": "/BusinessCardWebsite/static/media/github-logo_hub2899c31b6ca7aed8d6a218f0e752fe4_46649_1200x1200_fill_box_center_2.a3d793bb.png"
-  },
-  {
     "revision": "0d72d2fc3a2a21662d3799bb98897948",
     "url": "/BusinessCardWebsite/static/media/icons8-css3.0d72d2fc.svg"
   },
@@ -90,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b1c58ee19d1e2c38b29ae86f3174f2e4",
     "url": "/BusinessCardWebsite/static/media/instagram.b1c58ee1.svg"
+  },
+  {
+    "revision": "47c18e75cf104feab891c960ae91c88c",
+    "url": "/BusinessCardWebsite/static/media/item_ka.47c18e75.jpg"
   },
   {
     "revision": "4b475fb3f54b3e35daa04295ec48df4c",

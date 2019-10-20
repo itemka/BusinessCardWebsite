@@ -4,12 +4,12 @@
 
     font-family: sans-serif;
     height: 100vh;  /* Give app full page to work with */
-
+    z-index: 1101;
 }
 .page_wrap{
     text-align: center;
     overflow: auto; /* Prevent sidebar from showing a scrollbar on page */
-    z-index: 1010;
+    z-index: 1101;
 }
 
 @media screen and (min-width: 800px) {

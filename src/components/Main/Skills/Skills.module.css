@@ -12,6 +12,8 @@
     align-items: center;
     /*background-color: #222222;*/
     background-color: #2D2E2E;
+    position: relative;
+    z-index: 1100;
 }
 
 .borderSectionThree {

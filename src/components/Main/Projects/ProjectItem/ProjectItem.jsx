@@ -5,8 +5,8 @@ import Fade from 'react-reveal/Fade';
 class ProjectItem extends React.Component {
     render() {
         return (
-            <Fade right>
-                <div className={`${css.ProjectItem} ${this.props.identifier}`}>
+            <div className={`${css.ProjectItem} ${this.props.identifier}`}>
+                <Fade right>
                     <div className={css.increase}>
                         <img src={this.props.image} alt=""/>
                         <div className={css.AfterImage}>
@@ -17,8 +17,8 @@ class ProjectItem extends React.Component {
                             </span>
                         </div>
                     </div>
-                </div>
-            </Fade>
+                </Fade>
+            </div>
         );
     }
 }

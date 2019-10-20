@@ -65,6 +65,16 @@
     font-family: Download1, Areal, sans-serif;
     font-size: 1.5em;
 }
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    .sendMessage {
+        width: 120px;
+        color: #ffffff;
+        background-color: #f3c26b;
+        font-family: Download1, Areal, sans-serif;
+        font-size: 1.5em;
+    }
+}}
 @media screen and (max-width: 999px) {
     .sendMessage{
         width: 100%;

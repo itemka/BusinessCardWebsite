@@ -2,17 +2,17 @@ import React from 'react';
 import css from './OrderCall.module.css';
 import ButtonSendMessage from "../Contacts/SendMessage/ButtonSendMessage/ButtonSendMessage";
 import GeneralTitle from "../../GeneralTitle/GeneralTitle";
-import Flip from "react-reveal/Flip";
+import Zoom from "react-reveal/Zoom";
 
 const OrderCall = () => {
     return (
         <section id={"OrderCall"} className={`${css.sectionOne} ${css.sectionFive}`}>
-            <Flip left>
+            <Zoom left>
                 <div className={css.title}>
                     <GeneralTitle text={`I will contact you!`}/>
                 </div>
-            </Flip>
-            <Flip left>
+            </Zoom>
+            <Zoom left>
                 <div className={css.borderAround}>
                     <div className={css.sectionOneDiv}>
                         <div className={css.myText}>Submit your application</div>
@@ -29,7 +29,7 @@ const OrderCall = () => {
                         {/**/}
                     </div>
                 </div>
-            </Flip>
+            </Zoom>
         </section>
     );
 };

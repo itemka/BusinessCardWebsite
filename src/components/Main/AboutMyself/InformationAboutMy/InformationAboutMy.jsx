@@ -3,7 +3,7 @@ import css from './InformationAboutMy.module.css';
 
 class InformationAboutMy extends React.Component {
     componentDidMount() {
-        setInterval(() => this.changeFunction(), 3000);
+        setInterval(() => this.changeFunction(), 2000);
     }
 
     state = {
