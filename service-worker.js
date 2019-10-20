@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BusinessCardWebsite/precache-manifest.d8a31d3e6764810d72992b10f0ce6d66.js"
+  "/BusinessCardWebsite/precache-manifest.f123d0a959e8397cc7947251a677e050.js"
 );
 
 self.addEventListener('message', (event) => {
