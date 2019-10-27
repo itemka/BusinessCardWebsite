@@ -1,5 +1,5 @@
 import React from 'react';
-import {stack as Menu} from 'react-burger-menu';
+import {slide as Menu} from 'react-burger-menu';
 // import css from "../../Header/Nav/NavLink.module.css";
 import PhoneNumber from "../../Header/PhoneNumber/PhoneNumber";
 

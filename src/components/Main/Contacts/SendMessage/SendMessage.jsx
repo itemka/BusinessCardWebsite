@@ -7,10 +7,10 @@ const SendMessage = () => {
     return (
         <Zoom>
             <div className={css.sendMessageToEmail}>
-                <ButtonSendMessage type={`text`} className={css.buttonName} placeholder={`Name`}/>
-                <ButtonSendMessage type={`test`} className={css.buttonEmail} placeholder={`Email`}/>
-                <ButtonSendMessage type={`text`} className={css.buttonSubject} placeholder={`Subject`}/>
-                <textarea className={css.textAreaMessage} placeholder={`Message`}></textarea>
+                <ButtonSendMessage type={`text`} value={``} className={css.buttonName} placeholder={`Name`}/>
+                <ButtonSendMessage type={`test`} value={``} className={css.buttonEmail} placeholder={`Email`}/>
+                <ButtonSendMessage type={`text`} value={``} className={css.buttonSubject} placeholder={`Subject`}/>
+                <textarea className={css.textAreaMessage} value={``} placeholder={`Message`}></textarea>
                 <ButtonSendMessage type={`button`} className={css.sendMessage} value={`Send`}/>
             </div>
         </Zoom>

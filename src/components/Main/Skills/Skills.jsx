@@ -17,38 +17,31 @@ class Skills extends React.Component {
                 id: 1,
                 icon: html5,
                 skillTitle: `HTML5`,
-                skillText: `HTML5`
+                skillText: `I used basic tags, links, tables, form tags and HTML5 tags, HTML5 forms`
             },
             {
                 id: 2,
                 icon: css3,
                 skillTitle: `CSS3`,
-                skillText: `CSS3`
+                skillText: `I used the standard cascading style sheet, context and neighboring selectors, pseudo-classes, building grids (float, inline-block, flex, and some grid), adaptive mark-up for different resolutions, css-modules into React`
             },
             {
                 id: 3,
                 icon: js,
                 skillTitle: `JS (ES6)`,
-                skillText: `JavaScript`
+                skillText: `Worked with conditions, loops, arrays, functions, objects, promise`
             },
             {
                 id: 4,
                 icon: react,
                 skillTitle: `React`,
-                skillText: `React`
+                skillText: `FLAX Architecture, Components, props, callback, class, life cycle methods, state, localState, css-modules, Routing`
             },
             {
                 id: 5,
                 icon: redux,
                 skillTitle: `Redux`,
-                skillText: `Redux`
-            },
-            // {id: 6, icon: git, skillTitle: `git`, skillText: `Cqkjreng jb  rkekg bkbbb kjgr bg kqrg kbb jekr qkegb kergkqe gk ontacts`},
-            {
-                id: 6,
-                icon: github,
-                skillTitle: `github`,
-                skillText: `GitHub`
+                skillText: `Action, reducer, thunk, axios, hoc(connect, compose), Rest api, Redux Form work with Rest api`
             },
         ]
     };
