@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "159e08da9601323682a18d228e44c30d",
+    "revision": "146c0cc775acdac33a205b3617d7fd6f",
     "url": "/BusinessCardWebsite/index.html"
   },
   {
-    "revision": "a96e76000726dfa96cb8",
+    "revision": "d584ed0555dcd2ac9904",
     "url": "/BusinessCardWebsite/static/css/main.28073836.chunk.css"
   },
   {
-    "revision": "a24961ce2acf686c44f3",
-    "url": "/BusinessCardWebsite/static/js/2.18603756.chunk.js"
+    "revision": "0a8894e22329ec4a0bc2",
+    "url": "/BusinessCardWebsite/static/js/2.566d2208.chunk.js"
   },
   {
-    "revision": "a96e76000726dfa96cb8",
-    "url": "/BusinessCardWebsite/static/js/main.60727d74.chunk.js"
+    "revision": "d584ed0555dcd2ac9904",
+    "url": "/BusinessCardWebsite/static/js/main.8affbdfc.chunk.js"
   },
   {
     "revision": "08f49c9c50308404d5f8",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4971d60d80ec71eec896e6b68b21bea",
     "url": "/BusinessCardWebsite/static/media/telegram.b4971d60.svg"
+  },
+  {
+    "revision": "77f7a604cd4567682d3b740063bb4b17",
+    "url": "/BusinessCardWebsite/static/media/testTasksPosts.77f7a604.png"
   },
   {
     "revision": "ef15ab6acbe9cf150de2022760229795",

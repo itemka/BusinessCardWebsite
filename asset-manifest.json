@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BusinessCardWebsite/static/css/main.28073836.chunk.css",
-    "main.js": "/BusinessCardWebsite/static/js/main.60727d74.chunk.js",
-    "main.js.map": "/BusinessCardWebsite/static/js/main.60727d74.chunk.js.map",
+    "main.js": "/BusinessCardWebsite/static/js/main.8affbdfc.chunk.js",
+    "main.js.map": "/BusinessCardWebsite/static/js/main.8affbdfc.chunk.js.map",
     "runtime~main.js": "/BusinessCardWebsite/static/js/runtime~main.8771a7a7.js",
     "runtime~main.js.map": "/BusinessCardWebsite/static/js/runtime~main.8771a7a7.js.map",
-    "static/js/2.18603756.chunk.js": "/BusinessCardWebsite/static/js/2.18603756.chunk.js",
-    "static/js/2.18603756.chunk.js.map": "/BusinessCardWebsite/static/js/2.18603756.chunk.js.map",
+    "static/js/2.566d2208.chunk.js": "/BusinessCardWebsite/static/js/2.566d2208.chunk.js",
+    "static/js/2.566d2208.chunk.js.map": "/BusinessCardWebsite/static/js/2.566d2208.chunk.js.map",
     "index.html": "/BusinessCardWebsite/index.html",
-    "precache-manifest.55bc9d390bd40337676d2dd0e447607e.js": "/BusinessCardWebsite/precache-manifest.55bc9d390bd40337676d2dd0e447607e.js",
+    "precache-manifest.3b08fd430dd133192feb151861971818.js": "/BusinessCardWebsite/precache-manifest.3b08fd430dd133192feb151861971818.js",
     "service-worker.js": "/BusinessCardWebsite/service-worker.js",
     "static/css/main.28073836.chunk.css.map": "/BusinessCardWebsite/static/css/main.28073836.chunk.css.map",
     "static/media/0_U2DmhXYumRyXH6X1.png": "/BusinessCardWebsite/static/media/0_U2DmhXYumRyXH6X1.fd9ab9ee.png",
@@ -29,6 +29,7 @@
     "static/media/slide-bg-1.jpg": "/BusinessCardWebsite/static/media/slide-bg-1.bb7b30e6.jpg",
     "static/media/SkillsItem.module.css": "/BusinessCardWebsite/static/media/slide.6271c4f9.JPG",
     "static/media/telegram.svg": "/BusinessCardWebsite/static/media/telegram.b4971d60.svg",
+    "static/media/testTasksPosts.png": "/BusinessCardWebsite/static/media/testTasksPosts.77f7a604.png",
     "static/media/vk.svg": "/BusinessCardWebsite/static/media/vk.ef15ab6a.svg"
   }
 }
