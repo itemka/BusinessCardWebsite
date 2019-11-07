@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BusinessCardWebsite/static/css/main.59c4662f.chunk.css",
-    "main.js": "/BusinessCardWebsite/static/js/main.d5ec5e9f.chunk.js",
-    "main.js.map": "/BusinessCardWebsite/static/js/main.d5ec5e9f.chunk.js.map",
+    "main.css": "/BusinessCardWebsite/static/css/main.28073836.chunk.css",
+    "main.js": "/BusinessCardWebsite/static/js/main.8affbdfc.chunk.js",
+    "main.js.map": "/BusinessCardWebsite/static/js/main.8affbdfc.chunk.js.map",
     "runtime~main.js": "/BusinessCardWebsite/static/js/runtime~main.8771a7a7.js",
     "runtime~main.js.map": "/BusinessCardWebsite/static/js/runtime~main.8771a7a7.js.map",
-    "static/js/2.5af25c03.chunk.js": "/BusinessCardWebsite/static/js/2.5af25c03.chunk.js",
-    "static/js/2.5af25c03.chunk.js.map": "/BusinessCardWebsite/static/js/2.5af25c03.chunk.js.map",
+    "static/js/2.566d2208.chunk.js": "/BusinessCardWebsite/static/js/2.566d2208.chunk.js",
+    "static/js/2.566d2208.chunk.js.map": "/BusinessCardWebsite/static/js/2.566d2208.chunk.js.map",
     "index.html": "/BusinessCardWebsite/index.html",
-    "precache-manifest.b21aa5cc0bd9d5ca4eed8f39b40d3a83.js": "/BusinessCardWebsite/precache-manifest.b21aa5cc0bd9d5ca4eed8f39b40d3a83.js",
+    "precache-manifest.3b08fd430dd133192feb151861971818.js": "/BusinessCardWebsite/precache-manifest.3b08fd430dd133192feb151861971818.js",
     "service-worker.js": "/BusinessCardWebsite/service-worker.js",
-    "static/css/main.59c4662f.chunk.css.map": "/BusinessCardWebsite/static/css/main.59c4662f.chunk.css.map",
+    "static/css/main.28073836.chunk.css.map": "/BusinessCardWebsite/static/css/main.28073836.chunk.css.map",
     "static/media/0_U2DmhXYumRyXH6X1.png": "/BusinessCardWebsite/static/media/0_U2DmhXYumRyXH6X1.fd9ab9ee.png",
     "static/media/App.css": "/BusinessCardWebsite/static/media/17728.10043e21.ttf",
     "static/media/SocialNetwork.png": "/BusinessCardWebsite/static/media/SocialNetwork.963bb056.png",
@@ -27,7 +27,9 @@
     "static/media/linkedin.svg": "/BusinessCardWebsite/static/media/linkedin.4b475fb3.svg",
     "static/media/PhoneNumber.module.css": "/BusinessCardWebsite/static/media/phone-head.fb293016.png",
     "static/media/slide-bg-1.jpg": "/BusinessCardWebsite/static/media/slide-bg-1.bb7b30e6.jpg",
+    "static/media/SkillsItem.module.css": "/BusinessCardWebsite/static/media/slide.6271c4f9.JPG",
     "static/media/telegram.svg": "/BusinessCardWebsite/static/media/telegram.b4971d60.svg",
+    "static/media/testTasksPosts.png": "/BusinessCardWebsite/static/media/testTasksPosts.77f7a604.png",
     "static/media/vk.svg": "/BusinessCardWebsite/static/media/vk.ef15ab6a.svg"
   }
 }

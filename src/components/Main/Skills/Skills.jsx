@@ -35,13 +35,13 @@ class Skills extends React.Component {
                 id: 4,
                 icon: react,
                 skillTitle: `React`,
-                skillText: `FLAX Architecture, Components, props, callback, class, life cycle methods, state, localState, css-modules, Routing`
+                skillText: `FLAX architecture, components, props, callback, class, life cycle methods, state, localState, css-modules, routing, select/reselect`
             },
             {
                 id: 5,
                 icon: redux,
                 skillTitle: `Redux`,
-                skillText: `Action, reducer, thunk, axios, hoc(connect, compose), Rest api, Redux Form work with Rest api`
+                skillText: `Reducer, action, thunk, axios, hoc(connect, compose), redux form, work with rest api`
             },
         ]
     };
