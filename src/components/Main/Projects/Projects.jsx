@@ -12,6 +12,7 @@ import i9 from '../../../Files/Images/slide-bg-1.jpg';
 import counter from '../../../Files/Images/counter.png';
 import counter2 from '../../../Files/Images/counter2.png';
 import testTasksPosts from '../../../Files/Images/testTasksPosts.png';
+import NotificationsUsingTypeScript from '../../../Files/Images/NotificationsUsingTypeScript.png';
 
 const FILTER_ALL = `All`;
 const FILTER_COUNTER = `Counter`;
@@ -73,6 +74,15 @@ class Projects extends React.Component {
                 link: "https://itemka.github.io/testTaskPosts/",
                 viewCode: "https://github.com/itemka/testTaskPosts",
                 projectTitle: `Test task posts. Used React/Redux. Login: Admin, Password: 123123`,
+                projectText: `“Hi Amy! Your mum sent me a text. You forgot your inhaler. Why don’t you turn your phone on?” Amy didn’t like technology.`
+            },
+            {
+                id: 7,
+                image: NotificationsUsingTypeScript,
+                filter: TEST_TASKS,
+                link: "https://itemka.github.io/NotificationsUsingTypeScript/",
+                viewCode: "https://github.com/itemka/NotificationsUsingTypeScript",
+                projectTitle: `Notifications. I did React/Redux task with using TypeScript`,
                 projectText: `“Hi Amy! Your mum sent me a text. You forgot your inhaler. Why don’t you turn your phone on?” Amy didn’t like technology.`
             },
         ],
