@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25b6cb1f6743603b3ab54215fd6d21e8",
+    "revision": "6216c2c58d2019f56a2fb3ea2eded9e7",
     "url": "/BusinessCardWebsite/index.html"
   },
   {
-    "revision": "fcefd70ec0b49a381a1f",
+    "revision": "fe79447ace57524cbc65",
     "url": "/BusinessCardWebsite/static/css/main.5c840a89.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BusinessCardWebsite/static/js/2.f211d1aa.chunk.js"
   },
   {
-    "revision": "fcefd70ec0b49a381a1f",
-    "url": "/BusinessCardWebsite/static/js/main.62cfe942.chunk.js"
+    "revision": "fe79447ace57524cbc65",
+    "url": "/BusinessCardWebsite/static/js/main.7671324e.chunk.js"
   },
   {
     "revision": "08f49c9c50308404d5f8",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BusinessCardWebsite/static/media/NotificationsUsingTypeScript.9416a11e.png"
   },
   {
-    "revision": "963bb056c23b1f00a35c817021eb8d6d",
-    "url": "/BusinessCardWebsite/static/media/SocialNetwork.963bb056.png"
+    "revision": "a6c34caa501f168f5d1407e98db6acf6",
+    "url": "/BusinessCardWebsite/static/media/SocialNetwork.a6c34caa.png"
   },
   {
-    "revision": "1cde581d9fdf97325167ac820d6fb0a0",
-    "url": "/BusinessCardWebsite/static/media/ToDoList.1cde581d.png"
+    "revision": "1665325b1934f066453adfa45aceceef",
+    "url": "/BusinessCardWebsite/static/media/ToDoList.1665325b.png"
   },
   {
     "revision": "8a35398c63fdb82a03090f102417c8ec",
