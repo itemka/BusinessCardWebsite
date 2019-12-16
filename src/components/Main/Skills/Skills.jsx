@@ -17,31 +17,31 @@ class Skills extends React.Component {
                 id: 1,
                 icon: html5,
                 skillTitle: `HTML5`,
-                skillText: `I used basic tags, links, tables, form tags and HTML5 tags, HTML5 forms`
+                skillText: `I used HTML tags, attributes, semantic tags, media, audio, video, links, tables, form tags and HTML5 tags.`
             },
             {
                 id: 2,
                 icon: css3,
                 skillTitle: `CSS3`,
-                skillText: `I used the standard cascading style sheet, context and neighboring selectors, pseudo-classes, building grids (float, inline-block, flex, and some grid), adaptive mark-up for different resolutions, css-modules into React`
+                skillText: `I used the standard cascading style sheet, context and neighboring selectors, pseudo-classes, building grids (float, inline-block, flex, grid), adaptive mark-up, css-modules into React.`
             },
             {
                 id: 3,
                 icon: js,
                 skillTitle: `JS (ES6)`,
-                skillText: `Worked with conditions, loops, arrays, functions, objects, promise`
+                skillText: `Worked with arrays, cycles, conditions, arrow function, classes, constructors, 'this', let/const, DOM, closures, callback, promise, async/await. TypeScript.`
             },
             {
                 id: 4,
                 icon: react,
                 skillTitle: `React`,
-                skillText: `FLAX architecture, components, props, callback, class, life cycle methods, state, localState, css-modules, routing, select/reselect`
+                skillText: `FLAX architecture, UI-BLL-DAL conception, JSX syntax, clear function, REST API, axios(AJAX requests), components with state, life cycle methods, HOC, hooks, state, localState, css-modules, routing, select/reselect.`
             },
             {
                 id: 5,
                 icon: redux,
                 skillTitle: `Redux`,
-                skillText: `Reducer, action, thunk, axios, hoc(connect, compose), redux form, work with rest api`
+                skillText: `Redux (store, reducers, action, dispatch, subscribe, applyMiddleware, compose), react-redux (provider, connect) redux-thunk, redux-form.`
             },
         ]
     };

@@ -13,6 +13,7 @@ import counter from '../../../Files/Images/counter.png';
 import counter2 from '../../../Files/Images/counter2.png';
 import testTasksPosts from '../../../Files/Images/testTasksPosts.png';
 import NotificationsUsingTypeScript from '../../../Files/Images/NotificationsUsingTypeScript.png';
+import Runner from '../../../Files/Images/Runner.png';
 
 const FILTER_ALL = `All`;
 const FILTER_COUNTER = `Counter`;
@@ -24,6 +25,15 @@ class Projects extends React.Component {
         projects: [
             {
                 id: 1,
+                image: Runner,
+                filter: TEST_TASKS,
+                link: "https://itemka.github.io/Runner/",
+                viewCode: "https://github.com/itemka/Runner",
+                projectTitle: `SPA for running. Used React/Redux.`,
+                projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
+            },
+            {
+                id: 2,
                 image: socialNetwork,
                 filter: null,
                 link: "https://itemka.github.io/SocialNetworkApp/",
@@ -32,7 +42,7 @@ class Projects extends React.Component {
                 projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
             },
             {
-                id: 2,
+                id: 3,
                 image: ToDoList,
                 filter: null,
                 link: "https://itemka.github.io/ToDoList2/",
@@ -41,7 +51,7 @@ class Projects extends React.Component {
                 projectText: `After school, Kamal took the girls to the old house. It was very old and very dirty too.`
             },
             {
-                id: 3,
+                id: 4,
                 image: counter,
                 filter: FILTER_COUNTER,
                 link: "https://itemka.github.io/Counter-setState-/",
@@ -50,7 +60,7 @@ class Projects extends React.Component {
                 projectText: `Next evening was Halloween. The girls were at the school disco. “Are you better now?” asked Tara.`
             },
             {
-                id: 4,
+                id: 5,
                 image: counter2,
                 filter: FILTER_COUNTER,
                 link: "https://itemka.github.io/Counter-Redux-/",
@@ -59,7 +69,7 @@ class Projects extends React.Component {
                 projectText: `The next morning, Amy’s mum and dad were listening to the radio. “Is Amy up yet?” Dad asked.`
             },
             {
-                id: 5,
+                id: 6,
                 image: i9,
                 filter: FILTER_GAME,
                 link: "https://itemka.github.io/ReactDogApp/",
@@ -68,7 +78,7 @@ class Projects extends React.Component {
                 projectText: `“Hi Amy! Your mum sent me a text. You forgot your inhaler. Why don’t you turn your phone on?” Amy didn’t like technology.`
             },
             {
-                id: 6,
+                id: 7,
                 image: testTasksPosts,
                 filter: TEST_TASKS,
                 link: "https://itemka.github.io/testTaskPosts/",
@@ -77,7 +87,7 @@ class Projects extends React.Component {
                 projectText: `“Hi Amy! Your mum sent me a text. You forgot your inhaler. Why don’t you turn your phone on?” Amy didn’t like technology.`
             },
             {
-                id: 7,
+                id: 8,
                 image: NotificationsUsingTypeScript,
                 filter: TEST_TASKS,
                 link: "https://itemka.github.io/NotificationsUsingTypeScript/",
